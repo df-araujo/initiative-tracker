@@ -1,0 +1,84 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171899,
+		"dateLastModified": 1696171899
+	},
+	"monster": [
+		{
+			"name": "Roatha Huntsilver",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 11,
+			"con": 10,
+			"int": 12,
+			"wis": 13,
+			"cha": 9,
+			"passive": 11,
+			"cr": "0",
+			"shortName": "Roatha",
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Quest giver NPC.",
+					"{@bold {@italic Trait.}} I am socially anxious and have a problem with talking to others. (Suffering)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Timid (I... I d-don't know.)",
+					"{@bold {@italic Posture.}} Normal with hands together.",
+					"{@bold {@italic Pause.}} \"Hmmm... Err...\"",
+					"{@bold {@italic Pfidget.}} Carressing my hair."
+				]
+			},
+			"group": [
+				"House Huntstilver",
+				"Cormyrean Nobility"
+			]
+		}
+	]
+}

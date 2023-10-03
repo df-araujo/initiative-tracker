@@ -1,0 +1,112 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998328,
+		"dateLastModified": 1688998328
+	},
+	"monster": [
+		{
+			"name": "Sigfrid",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 11,
+			"passive": 11,
+			"cr": "1/4",
+			"languages": [
+				"Common",
+				"Giant"
+			],
+			"languageTags": [
+				"C",
+				"GI"
+			],
+			"skill": {
+				"athletics": "+3",
+				"intimidation": "+2"
+			},
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Aid the players and bring out their stories.",
+					"{@bold {@italic Trait.}} I am timid and cannot stand too much conversation. (Suffering)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} ",
+					"{@bold {@italic Posture.}} ",
+					"{@bold {@italic Pause.}} ",
+					"{@bold {@italic Pfidget.}} ",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with both hands to make a melee attack."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"group": [
+				"Blue Dragons"
+			]
+		}
+	]
+}

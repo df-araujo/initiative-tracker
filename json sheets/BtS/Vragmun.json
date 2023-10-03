@@ -1,0 +1,205 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998564,
+		"dateLastModified": 1688998564
+	},
+	"monster": [
+		{
+			"name": "Vragmun",
+			"size": [
+				"L"
+			],
+			"type": "aberration",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "13d10 + 26",
+				"average": 97
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 13,
+			"dex": 12,
+			"con": 15,
+			"int": 17,
+			"wis": 15,
+			"cha": 14,
+			"passive": 15,
+			"cr": "5",
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} The villain of the Suzail arch.",
+					"{@bold {@italic Trait.}} I am pleasant and well-spoken (Virtue)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Polite (Sorry friend. I don't know.)",
+					"{@bold {@italic Posture.}} Upstraight leaning on a cane with both hands.",
+					"{@bold {@italic Pause.}} Scratching my beard",
+					"{@bold {@italic Pfidget.}} Fixing my glasses.",
+					"== Night Parade Generator ==",
+					"{@bold {@italic Size.}} Large",
+					"{@bold {@italic Movement.}} Walking",
+					"{@bold {@italic Skin Texture.}} Tough Flesh",
+					"{@bold {@italic Attacks.}} 1",
+					"{@bold {@italic Source of Attacks.}} Tentacle",
+					"{@bold {@italic Primary Color.}} Brown",
+					"{@bold {@italic Shapeshifter?}} Shapeshifter (changed from Non-shapeshifter)",
+					"{@bold {@italic Saving Throws.}} Wizard",
+					"{@bold {@italic Magic Resistance.}} Nil",
+					"{@bold {@italic Extra Abilities.}} Water breaths at will. Creature has 8 extra eyes that can charm observers. Summons weather disasters once a day. Body emits acid and +1d4 acid damage. Laughs crazily, casting {@spell Tasha's hideous laughter}."
+				]
+			},
+			"isNpc": true,
+			"group": [
+				"Night Parade",
+				"Vragmun's Cell"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"Draconic",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"DR",
+				"S"
+			],
+			"save": {
+				"int": "+6",
+				"wis": "+5"
+			},
+			"skill": {
+				"perception": "+5",
+				"arcana": "+6",
+				"history": "+6"
+			},
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"resist": [
+				"acid",
+				"psychic"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Vragmun's innate spellcasting ability is Intelligence (spell save {@dc 14}). Vragmun can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell detect magic}",
+						"{@spell water breathing} (self only)"
+					],
+					"daily": {
+						"3e": [
+							"{@spell call lightning}",
+							"{@spell clairvoyance}",
+							"{@spell levitate}",
+							"{@spell magic mouth}",
+							"{@spell phantasmal killer}",
+							"{@spell Tasha's hideous laughter}"
+						],
+						"1e": [
+							"{@spell control weather}",
+							"{@spell telekinesis}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"isNamedCreature": true,
+			"damageTagsSpell": [
+				"L",
+				"Y"
+			],
+			"trait": [
+				{
+					"name": "Corrosive Form",
+					"entries": [
+						"A creature that touches Vragmun or hits it with a melee attack while within 5 feet of it takes 4 ({@dice 1d8}) acid damage. Any nonmagical weapon made of metal or wood that hits Vragmun corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits Vragmun is destroyed after dealing damage.",
+						"Vragmun can eat through 2-inch-thick, nonmagical wood or metal in 1 round."
+					]
+				},
+				{
+					"name": "Sinister Visage",
+					"entries": [
+						"Vragmun has eight extra eyes along its body. When a creature that can see Vragmun's eyes starts its turn within 30 feet of Vragmun, Vragmun can force the creature to make a {@dc 13} Wisdom saving throw if Vragmun isn't {@condition incapacitated} and can see the creature. If the saving throw rolls a 1, the creature is dominated by Vragmun, as in the {@spell dominate monster} spell, for 1 hour. Otherwise, the creature is {@condition charmed} by Vragmun for 1 hour.",
+						"A creature that isn't {@quickref Surprise|PHB|3|0|surprised} can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see Vragmun until the start of its next turn, when it can avert its eyes again. If it looks at Vragmun in the meantime, it must immediately make the save."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Vragmun can use its action to polymorph into a Medium or Large humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"action": [
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}8 ({@damage 2d6 + 1}) bludgeoning damage, plus 2 ({@damage 1d4}) acid damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Tentacles"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"traitTags": [
+				"Shapechanger"
+			]
+		}
+	]
+}

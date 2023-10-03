@@ -1,0 +1,154 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171496,
+		"dateLastModified": 1696171496
+	},
+	"monster": [
+		{
+			"name": "Cereth",
+			"source": "BeforetheStorm",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "13d8 + 26"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"int": "+3"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"athletics": "+3",
+				"perception": "+3",
+				"sleight of hand": "+7",
+				"stealth": "+7"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Halfling",
+				"Thieves' cant"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Cereth is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, Cereth instead takes no damage if she succeeds on the saving throw and only half damage if she fails, provided Cereth isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of her turns, Cereth can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Cereth deals an extra 10 ({@dice 3d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Cereth that isn't {@condition incapacitated} and Cereth doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Cereth makes three attacks with her shortsword or two attacks with her shortbow."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"Cereth halves the damage that it takes from an attack that hits it. The thief must be able to see the attacker."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"H",
+				"TC"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
+			"group": [
+				"Women of the Woods"
+			]
+		}
+	]
+}

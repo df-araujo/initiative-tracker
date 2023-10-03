@@ -1,0 +1,157 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998284,
+		"dateLastModified": 1688998284
+	},
+	"monster": [
+		{
+			"name": "Ondri",
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 15",
+				"average": 37
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 7,
+			"con": 16,
+			"int": 7,
+			"wis": 6,
+			"cha": 5,
+			"passive": 10,
+			"cr": "2",
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Size.}} Medium",
+					"{@bold {@italic Movement.}} Oozes like a slime",
+					"{@bold {@italic Skin Texture.}} Metallic",
+					"{@bold {@italic Attacks.}} 3",
+					"{@bold {@italic Source of Attacks.}} Mouth",
+					"{@bold {@italic Primary Color.}} Gray",
+					"{@bold {@italic Shapeshifter?}} Non-shapeshitfter",
+					"{@bold {@italic Saving Throws.}} Rogue",
+					"{@bold {@italic Magic Resistance.}} 5%",
+					"{@bold {@italic Extra Abilities.}} Body emits foul odor (like {@spell stinking cloud})."
+				]
+			},
+			"group": [
+				"Night Parade",
+				"Vragmun's Cell"
+			],
+			"senses": [
+				"blindsight 60 ft. ({@condition blind} beyond this radius)"
+			],
+			"senseTags": [
+				"B"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While Ondri remains motionless, it is indistinguishable from a pool of liquid metal."
+					]
+				},
+				{
+					"name": "Amorphous",
+					"entries": [
+						"Ondri can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Stench",
+					"entries": [
+						"Any creature that starts its turn within 10 feet of Ondri must succeed on a {@dc 14} Constitution saving throw or be {@condition poisoned} until the start of its next turn. On a successful saving throw, the creature is immune to Ondri's stench for 24 hours."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous",
+				"False Appearance"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"resist": [
+				"acid",
+				"cold",
+				"fire"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"damageTags": [
+				"P"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ondri makes three bite attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"isNpc": true,
+			"skill": {
+				"perception": "+0"
+			}
+		}
+	]
+}

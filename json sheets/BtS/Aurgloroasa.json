@@ -1,0 +1,283 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998148,
+		"dateLastModified": 1688998148
+	},
+	"monster": [
+		{
+			"name": "Aurgloroasa",
+			"source": "BeforetheStorm",
+			"size": [
+				"G"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 546,
+				"formula": "28d20 + 252"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80
+			},
+			"str": 30,
+			"dex": 10,
+			"con": 29,
+			"int": 20,
+			"wis": 15,
+			"cha": 23,
+			"save": {
+				"dex": "+8",
+				"con": "+17",
+				"wis": "+10",
+				"cha": "+14"
+			},
+			"skill": {
+				"perception": "+18",
+				"stealth": "+16",
+				"religion": "+13"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 28,
+			"immune": [
+				"fire",
+				"poison"
+			],
+			"languages": [
+				"All"
+			],
+			"cr": "28",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Aurgloroasa fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Aurgloroasa has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Living Shadow",
+					"entries": [
+						"While in dim light or darkness, Aurgloroasa has resistance to damage that isn't force, psychic, or radiant."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, Aurgloroasa can take the {@action Hide} action as a bonus action."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, Aurgloroasa has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"entries": [
+						"As an ancient dracolich, Aurgloroasa's body turns to dust when she drops to 0 hit points (her equipment is left behind) and her spirit can possess a reptilian creature within 50 miles. Alternatively, her spirit can return to her phylactery as long as the two are on the same plane. If the phylactery comes into contact with another dragon's corpse, Aurgloroasa's spirit can take possession of that corpse, reviving the dracolich. If Aurgloroasa's phylactery is taken to another plane, her spirit has nowhere to go when her undead body is destroyed and simply passes into the afterlife."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Aurgloroasa can use its Frightful Presence. She then makes three attacks: one with her bite and two with her claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 15 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage plus 14 ({@damage 4d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d6 + 10}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 18} to hit, reach 20 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the Aurgloroasa's choice that is within 120 feet of Aurgloroasa and aware of her must succeed on a {@dc 22} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Aurgloroasa's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Shadow Breath {@recharge 5}",
+					"entries": [
+						"Aurgloroasa exhales shadowy fire in a 90-foot cone. Each creature in that area must make a {@dc 25} Dexterity saving throw, taking 91 ({@damage 26d6}) necrotic damage on a failed save, or half as much damage on a successful one. A humanoid reduced to 0 hit points by this damage dies, and an undead shadow rises from its corpse and acts immediately after the dragon in the initiative count. The shadow is under Aurgloroasa's control."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"Aurgloroasa makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"Aurgloroasa makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"Aurgloroasa beats her wings. Each creature within 15 feet of Aurgloroasa must succeed on a {@dc 25} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. Aurgloroasa can then fly up to half its flying speed."
+					]
+				}
+			],
+			"dragonAge": "ancient",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Rejuvenation",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"N",
+				"P",
+				"S"
+			],
+			"damageTagsLegendary": [
+				"N"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened",
+				"prone"
+			],
+			"conditionInflictLegendary": [
+				"incapacitated",
+				"poisoned",
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Purpose.}} Serve as an antagonist by leading forces against the players.",
+					"{@bold {@italic Trait.}} "
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://vignette.wikia.nocookie.net/forgottenrealms/images/f/fa/Aurgloroasa.JPG/revision/latest?cb=20051215001236"
+						}
+					}
+				]
+			},
+			"shortName": true,
+			"resist": [
+				"necrotic"
+			],
+			"isNamedCreature": true,
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"poisoned"
+			],
+			"environment": [
+				"mountain"
+			],
+			"isNpc": true,
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Aurgloroasa's innate spellcasting ability is Charisma (spell save {@dc 22}). Aurgloroasa can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell animate dead}",
+							"{@spell counterspell}",
+							"{@spell darkness}",
+							"{@spell dream}",
+							"{@spell plane shift} (self)",
+							"{@spell scrying}",
+							"{@spell shapechange}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"legendaryGroup": {
+				"name": "Aurgloroasa",
+				"source": "BeforetheStorm"
+			},
+			"tokenUrl": "https://imgur.com/G7pZt2m.png",
+			"damageTagsSpell": [
+				"Y"
+			]
+		}
+	]
+}

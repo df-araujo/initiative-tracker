@@ -1,0 +1,136 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998266,
+		"dateLastModified": 1688998266
+	},
+	"monster": [
+		{
+			"name": "Lidoi",
+			"size": [
+				"S"
+			],
+			"type": "aberration",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d6 + 6",
+				"average": 16
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 14,
+			"con": 14,
+			"int": 12,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "2",
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Size.}} Small",
+					"{@bold {@italic Movement.}} Walks",
+					"{@bold {@italic Skin Texture.}} Stony",
+					"{@bold {@italic Attacks.}} 2",
+					"{@bold {@italic Source of Attacks.}} Hands/claws",
+					"{@bold {@italic Primary Color.}} Orage",
+					"{@bold {@italic Shapeshifter?}} Yes",
+					"{@bold {@italic Saving Throws.}} Wizard",
+					"{@bold {@italic Magic Resistance.}} 10%",
+					"{@bold {@italic Extra Abilities.}} Body emits foul odor"
+				]
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"S"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Lidoi makes two melee attacks."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"trait": [
+				{
+					"name": "Noxious Stench",
+					"entries": [
+						"Any creature that starts its turn within 10 feet of Lidoi must succeed on a {@dc 13} Constitution saving throw or take 7 ({@damage 2d6}) poison damage and be {@condition poisoned} until the start of the creature's next turn."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Lidoi has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Lidoi can use its action to polymorph into a Small humanoid, a beast form that resembles a bat (speed 10 feet fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"isNamedCreature": true,
+			"group": [
+				"Night Parade",
+				"Ergok's Cell"
+			],
+			"isNpc": true
+		}
+	]
+}

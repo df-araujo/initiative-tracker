@@ -1,0 +1,232 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1693152400,
+		"dateLastModified": 1693152400
+	},
+	"monster": [
+		{
+			"name": "Ming Yan",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 9",
+				"average": 49
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 17,
+			"con": 12,
+			"int": 12,
+			"wis": 14,
+			"cha": 11,
+			"passive": 10,
+			"cr": "3",
+			"shortName": "Ming",
+			"languages": [
+				"Common",
+				"Giant",
+				"Primordial"
+			],
+			"languageTags": [
+				"C",
+				"GI",
+				"P"
+			],
+			"skill": {
+				"athletics": "+5",
+				"history": "+3",
+				"animal handling": "+4"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ming makes three weapon attacks."
+					]
+				},
+				{
+					"name": "Lance",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with both hands to make a melee attack."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"isNpc": true,
+			"group": [
+				"Tourney of Champions",
+				"Joust"
+			],
+			"trait": [
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"Ming rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest).",
+					"entries": [
+						"As a bonus action, Ming can regain 15 hit points."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A local lord from the far lands of Shou Lung.",
+									{
+										"name": "Two-Note NPC",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Purpose",
+												"type": "entries",
+												"entries": [
+													"Game purpose."
+												]
+											},
+											{
+												"name": "Trait",
+												"type": "entries",
+												"entries": [
+													"I wish to know more of the western lands and their chivalric stories. (Hope)"
+												]
+											}
+										]
+									},
+									{
+										"name": "Four P’s of Playacting",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Personality",
+												"type": "entries",
+												"entries": [
+													"A version of 'I don't know'. (Type of personality)"
+												]
+											},
+											{
+												"name": "Posture",
+												"type": "entries",
+												"entries": [
+													"Posture."
+												]
+											},
+											{
+												"name": "Pause",
+												"type": "entries",
+												"entries": [
+													"Pause phrase or gesture."
+												]
+											},
+											{
+												"name": "Pfidget",
+												"type": "entries",
+												"entries": [
+													"Repeating gesture."
+												]
+											}
+										]
+									},
+									{
+										"name": "Social Interaction",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Objections",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Objection 1",
+														"type": "entries",
+														"entries": [
+															"Objection 1 explanation. (score)"
+														]
+													}
+												]
+											},
+											{
+												"name": "Incentives",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Incentive 1",
+														"type": "entries",
+														"entries": [
+															"Incentive 1 explanation. (score)"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

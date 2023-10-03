@@ -1,0 +1,221 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171640,
+		"dateLastModified": 1696171640
+	},
+	"monster": [
+		{
+			"name": "Ilsevele Miritar",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item +1 studded leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 16",
+				"average": 88
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 20,
+			"con": 12,
+			"int": 16,
+			"wis": 16,
+			"cha": 17,
+			"passive": 17,
+			"cr": "9",
+			"shortName": "Ilsevele",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"Elvish",
+				"Halfling",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"E",
+				"H",
+				"S"
+			],
+			"save": {
+				"dex": "+9",
+				"int": "+7"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7",
+				"insight": "+7",
+				"perception": "+7",
+				"medicine": "+7"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Ilsevele is a 16th-level spellcaster that uses Intelligence as her spellcasting ability (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Ilsevele has the following spells prepared from the wizard spell list:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell blade ward}",
+								"{@spell message}",
+								"{@spell prestidigitation}",
+								"{@spell true strike}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell alarm}",
+								"{@spell chromatic orb}",
+								"{@spell detect magic}",
+								"{@spell protection from evil and good}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell continual flame}",
+								"{@spell gust of wind}",
+								"{@spell Melf's acid arrow}",
+								"{@spell misty step}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell clairvoyance}",
+								"{@spell counterspell}",
+								"{@spell glyph of warding}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L",
+				"T"
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Ilsevele has advantage on saving throws against being {@condition charmed}, and magic can't put her to sleep."
+					]
+				},
+				{
+					"name": "War Magic",
+					"entries": [
+						"When Ilsevele uses her action to cast a cantrip, she can also take a bonus action to make one weapon attack."
+					]
+				},
+				{
+					"name": "Weapon Bond",
+					"entries": [
+						"Provided her longbow is on the same plane Illsevele can take a bonus action to teleport it to her hand."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ilsevele makes three ranged attacks or two melee attacks. If she has a second shortsword drawn, she can make an additional shortsword attack."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "+1 Longbow",
+					"entries": [
+						"{@atk rw} {@hit 10} to hit, range 150/600 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Give information.",
+					"{@bold {@italic Trait.}} I hope to restore my nation to its former glory. (Dream)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Distant (Do I know...? I don't think I do...)",
+					"{@bold {@italic Posture.}} Erect.",
+					"{@bold {@italic Pause.}} Humming an ancient elven song with closed eyes.",
+					"{@bold {@italic Pfidget.}} Running my fingers along the table."
+				]
+			}
+		}
+	]
+}

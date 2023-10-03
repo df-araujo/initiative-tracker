@@ -1,0 +1,149 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998167,
+		"dateLastModified": 1688998167
+	},
+	"monster": [
+		{
+			"name": "Balgrim mac Tygron",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 44",
+				"average": 93
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 18,
+			"dex": 11,
+			"con": 18,
+			"int": 10,
+			"wis": 12,
+			"cha": 13,
+			"passive": 11,
+			"cr": "6",
+			"shortName": "Balgrim",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Orc"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"O"
+			],
+			"save": {
+				"con": "+7",
+				"wis": "+4",
+				"str": "+7"
+			},
+			"skill": {
+				"athletics": "+7",
+				"intimidation": "+4",
+				"history": "+3"
+			},
+			"resist": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"Balgrim has advantage on saving throws against poison, and has resistance against poison damage."
+					]
+				},
+				{
+					"name": "Brave",
+					"entries": [
+						"Balgrim has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"Balgrim rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, Balgrim can regain 20 hit points."
+					]
+				}
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Balgrim makes three melee attacks."
+					]
+				},
+				{
+					"name": "Halberd",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"group": [
+				"Clan Hammerhands"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		}
+	]
+}

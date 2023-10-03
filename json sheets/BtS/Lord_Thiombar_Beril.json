@@ -1,0 +1,133 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171701,
+		"dateLastModified": 1696171701
+	},
+	"monster": [
+		{
+			"name": "Lord Thiombar Beril",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 34",
+				"average": 110
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 15,
+			"int": 14,
+			"wis": 13,
+			"cha": 15,
+			"passive": 11,
+			"cr": "5",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Gnomish",
+				"Halfling"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"G",
+				"H"
+			],
+			"save": {
+				"str": "+6",
+				"con": "+5"
+			},
+			"skill": {
+				"investigation": "+5",
+				"insight": "+4",
+				"history": "+5"
+			},
+			"shortName": "Thiombar",
+			"trait": [
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest).",
+					"entries": [
+						"As a bonus action, Thiombar can regain 15 hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Thiombar makes three melee or ranged attacks."
+					]
+				},
+				{
+					"name": "Morningstar",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 150/500 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Purpose.}} Lead a resistance against the encroaching goblinoids.",
+					"{@bold {@italic Trait.}} I am friendly and helpful towards everyone, even my enemies. (Virtue)"
+				]
+			},
+			"isNpc": true
+		}
+	]
+}

@@ -1,0 +1,130 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1694291186,
+		"dateLastModified": 1694291186
+	},
+	"monster": [
+		{
+			"name": "Merlan Brandybuck",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"halfling"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "1d6",
+				"average": 3
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 14,
+			"passive": 11,
+			"cr": "0",
+			"shortName": "Merlan",
+			"languages": [
+				"Common",
+				"Halfling"
+			],
+			"languageTags": [
+				"C",
+				"H"
+			],
+			"trait": [
+				{
+					"name": "Halfling Nimbleness",
+					"entries": [
+						"Merlan can move through a space of a Medium or larger creature."
+					]
+				},
+				{
+					"name": "Naturally Stealthy",
+					"entries": [
+						"Merlan can attempt to {@action hide} when he is obscured by a Medium or bigger creature."
+					]
+				},
+				{
+					"name": "Brave",
+					"entries": [
+						"Merlan has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Lucky",
+					"entries": [
+						"When Merlan rolls a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW",
+				"RNG"
+			],
+			"skill": {
+				"persuasion": "+4"
+			},
+			"isNpc": true,
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Purpose.}} Give the players quests.",
+					"{@bold {@italic Trait.}} Despite giving my all at my trade, I always fall short of my ancestors. (Suffering)",
+					"{@bold {@italic Trait.}} I am brave and corageous, even against the cruelest enemies. (Virtue)"
+				]
+			},
+			"isNamedCreature": true
+		}
+	]
+}

@@ -1,0 +1,168 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998138,
+		"dateLastModified": 1688998138
+	},
+	"monster": [
+		{
+			"name": "Andram",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tiefling"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item chain mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 9,
+			"con": 14,
+			"int": 11,
+			"wis": 14,
+			"cha": 15,
+			"passive": 12,
+			"cr": "2",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Infernal"
+			],
+			"languageTags": [
+				"C",
+				"I"
+			],
+			"save": {
+				"wis": "+4",
+				"cha": "+4"
+			},
+			"skill": {
+				"religion": "+2",
+				"animal handling": "+4"
+			},
+			"resist": [
+				"fire"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Andram is a 4th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). He has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell protection from evil and good}",
+								"{@spell sanctuary}",
+								"{@spell searing smite}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Andram's innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). Andram can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell thaumaturgy}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell darkness}",
+							"{@spell hellish rebuke} (as a 2nd-level spell)"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CP",
+				"I"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"action": [
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Turn the Unholy (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Andram prays, censuring fiends and undead. Each fiend or undead within 30 feet of Andram must succeed a {@dc 12} Wisdom saving throw or be {@condition frightened} for 1 minute or until it takes damage."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Purpose.}} Give quests and provide assistance to the players.",
+					"{@bold {@italic Trait.}} I am charitable and just, even though I have to fight my nature for it. (Virtue)"
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"group": [
+				"Church of Tyr"
+			]
+		}
+	]
+}

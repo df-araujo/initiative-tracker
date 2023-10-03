@@ -1,0 +1,184 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998325,
+		"dateLastModified": 1688998325
+	},
+	"monster": [
+		{
+			"name": "Sehad Mekdim",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"formula": "8d8 + 8",
+				"average": 44
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 13,
+			"int": 16,
+			"wis": 18,
+			"cha": 13,
+			"passive": 14,
+			"cr": "5",
+			"shortName": "Sehad",
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Elvish",
+				"Giant",
+				"Primordial"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"D",
+				"E",
+				"GI",
+				"P"
+			],
+			"save": {
+				"int": "+6",
+				"wis": "+7"
+			},
+			"skill": {
+				"arcana": "+6",
+				"religion": "+6",
+				"history": "+6",
+				"nature": "+6",
+				"insight": "+7"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Sehad is an 8th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Sehad has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell mending}",
+								"{@spell message}",
+								"{@spell sacred flame}",
+								"{@spell sword burst|TCE}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell create or destroy water}",
+								"{@spell detect magic}",
+								"{@spell magic missile}",
+								"{@spell purify food and drink}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell aid}",
+								"{@spell augury}",
+								"{@spell hold person}",
+								"{@spell magic weapon}",
+								"{@spell Nystul's magic aura}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell clairvoyance}",
+								"{@spell dispel magic}",
+								"{@spell magic circle}",
+								"{@spell speak with dead}",
+								"{@spell tongues}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell arcane eye}",
+								"{@spell banishment}",
+								"{@spell divination}",
+								"{@spell Leomund's secret chest}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"damageTagsSpell": [
+				"O",
+				"R"
+			],
+			"damageTags": [
+				"B"
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 4 ({@damage 1d8}) bludgeoning damage if used with both hands."
+					]
+				},
+				{
+					"name": "Arcane Abjuration (Recharges after a Short or Long Rest).",
+					"entries": [
+						"Sehad abjures otherworldly creatures. One celestial, elemental, fey, or fiend of Sehad's choice within 30 feet of him must succeed a {@dc 15} Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes any damage. A turned creature must spend its turns trying to move as far away from Sehad as it can, and it can't willingly end its move in a space within 30 feet of Sehad. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, then the creature can use the {@action Dodge} action.",
+						"If the creature's challenge rating is equal to or less than 1, it is banished for 1 minute (as in the {@spell banishment} spell, no concentration required) if it isn't on its plane of origin"
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Purpose.}} Serve as a quest objective and instructor to players.",
+					"{@bold {@italic Trait.}} I wish for Cormyr to know the blessings of Mystra. (Hope)"
+				]
+			},
+			"isNpc": true
+		}
+	]
+}

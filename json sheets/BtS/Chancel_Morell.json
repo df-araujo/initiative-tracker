@@ -1,0 +1,155 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171503,
+		"dateLastModified": 1696171503
+	},
+	"monster": [
+		{
+			"name": "Chancel Morell",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 10,
+			"con": 12,
+			"int": 11,
+			"wis": 15,
+			"cha": 12,
+			"passive": 12,
+			"cr": "1/8",
+			"shortName": "Morell",
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Primordial"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"P"
+			],
+			"skill": {
+				"religion": "+2",
+				"intimidation": "+3",
+				"insight": "+4"
+			},
+			"damageTags": [
+				"B"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Run the Temple Quarter in Teziir.",
+					"{@bold {@italic Trait.}} I uphold the law defend every person's right. (Virtue)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Inquisitive (I do not know. Why do you want to know?)",
+					"{@bold {@italic Posture.}} Upstraight.",
+					"{@bold {@italic Pause.}} Frowning.",
+					"{@bold {@italic Pfidget.}} Scratching my mustache.",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"group": [
+				"Teziir",
+				"Church of Helm"
+			],
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit +2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Morell is a 3rd-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). Morell has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell resistance}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell detect evil and good}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell protection from poison}",
+								"{@spell spiritual weapon}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"damageTagsSpell": [
+				"O"
+			]
+		}
+	]
+}

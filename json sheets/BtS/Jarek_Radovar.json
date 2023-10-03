@@ -1,0 +1,254 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171860,
+		"dateLastModified": 1696171860
+	},
+	"monster": [
+		{
+			"name": "Jarek Radovar",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item scale mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 14,
+			"int": 13,
+			"wis": 15,
+			"cha": 10,
+			"passive": 14,
+			"cr": "2",
+			"shortName": "Jarek",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Giant",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"GI",
+				"S"
+			],
+			"save": {
+				"dex": "+5",
+				"str": "+3"
+			},
+			"skill": {
+				"arcana": "+3",
+				"athletics": "+3",
+				"perception": "+4",
+				"survival": "+4",
+				"nature": "+3"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Jarek is a 6th-level spellcaster. His spellcasting ability is Wisdom. He knows the following ranger spells:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell alarm}",
+								"{@spell detect magic}",
+								"{@spell fog cloud}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell pass without trace}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CR"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Jarek makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit +5} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A ranger from Aglarond and member of the Order of the Shooting Star. He operates in Cormyr.",
+									{
+										"name": "Two-Note NPC",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Purpose",
+												"type": "entries",
+												"entries": [
+													"Give context and information."
+												]
+											},
+											{
+												"name": "Trait",
+												"type": "entries",
+												"entries": [
+													"I am serious and dedicated to my duty. (Virtue)"
+												]
+											}
+										]
+									},
+									{
+										"name": "Four P’s of Playacting",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Personality",
+												"type": "entries",
+												"entries": [
+													"A version of 'I don't know'. (Type of personality)"
+												]
+											},
+											{
+												"name": "Posture",
+												"type": "entries",
+												"entries": [
+													"Posture."
+												]
+											},
+											{
+												"name": "Pause",
+												"type": "entries",
+												"entries": [
+													"Pause phrase or gesture."
+												]
+											},
+											{
+												"name": "Pfidget",
+												"type": "entries",
+												"entries": [
+													"Repeating gesture."
+												]
+											}
+										]
+									},
+									{
+										"name": "Social Interaction",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Objections",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Objection 1",
+														"type": "entries",
+														"entries": [
+															"Objection 1 explanation. (score)"
+														]
+													}
+												]
+											},
+											{
+												"name": "Incentives",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Incentive 1",
+														"type": "entries",
+														"entries": [
+															"Incentive 1 explanation. (score)"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"isNpc": true,
+			"group": [
+				"Church of Mystra",
+				"Order of the Shooting Star"
+			]
+		}
+	]
+}

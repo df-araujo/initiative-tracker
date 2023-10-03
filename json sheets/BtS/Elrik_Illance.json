@@ -1,0 +1,208 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171590,
+		"dateLastModified": 1696171590
+	},
+	"monster": [
+		{
+			"name": "Elrik Illance",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item padded armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 12,
+			"wis": 9,
+			"cha": 11,
+			"passive": 9,
+			"cr": "1/4",
+			"shortName": "Elrik",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Halfling"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"H"
+			],
+			"skill": {
+				"history": "+3",
+				"persuasion": "+2",
+				"deception": "+2"
+			},
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"isNpc": true,
+			"group": [
+				"House Illance",
+				"Cormyrean Nobility"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A young noble from House Illance of Cormyr. He is naive and somewhat nervous.",
+									{
+										"name": "Two-Note NPC",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Purpose",
+												"type": "entries",
+												"entries": [
+													"Give the players quests."
+												]
+											},
+											{
+												"name": "Trait",
+												"type": "entries",
+												"entries": [
+													"I am regretful and bitter on my past endeavors. (Suffering)"
+												]
+											}
+										]
+									},
+									{
+										"name": "Four P’s of Playacting",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Personality",
+												"type": "entries",
+												"entries": [
+													"A version of 'I don't know'. (Type of personality)"
+												]
+											},
+											{
+												"name": "Posture",
+												"type": "entries",
+												"entries": [
+													"Posture."
+												]
+											},
+											{
+												"name": "Pause",
+												"type": "entries",
+												"entries": [
+													"Pause phrase or gesture."
+												]
+											},
+											{
+												"name": "Pfidget",
+												"type": "entries",
+												"entries": [
+													"Repeating gesture."
+												]
+											}
+										]
+									},
+									{
+										"name": "Social Interaction",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Objections",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Objection 1",
+														"type": "entries",
+														"entries": [
+															"Objection 1 explanation. (score)"
+														]
+													}
+												]
+											},
+											{
+												"name": "Incentives",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Incentive 1",
+														"type": "entries",
+														"entries": [
+															"Incentive 1 explanation. (score)"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"isNamedCreature": true
+		}
+	]
+}

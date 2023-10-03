@@ -1,0 +1,147 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998213,
+		"dateLastModified": 1688998213
+	},
+	"monster": [
+		{
+			"name": "Diabolus Bellator",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"diabolus"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 36",
+				"average": 90
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 17,
+			"int": 10,
+			"wis": 14,
+			"cha": 13,
+			"passive": 15,
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Cartwheel Dash (1/Day)",
+					"entries": [
+						"If the diabolus is wielding a trident, it can increase its speed for up to 1 minute as if affected by the {@spell haste} spell. Until the effect ends, the diabolus gains a +2 bonus to AC, it doubles its base move speed, it has advantage on Dexterity saving throws, and it can only take the Dash and Disengage actions on its turn. When the effect ends, the diabolus can’t move or take actions until after its next turn, as a wave of lethargy sweeps over it."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the diabolus moves at least 10 feet straight toward a target and then hits it with a trident attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage."
+					]
+				},
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The diabolus has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Nightmare Denizen",
+					"entries": [
+						"The diabolus is immune to spells and spell-like effects used by creatures that do not have the nightmare denizen tag. Inversely, spells and spell-like effects used by the diabolus have no effect on creatures that do not have the nightmare denizen tag."
+					]
+				}
+			],
+			"traitTags": [
+				"Charge",
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The diabolus makes two attacks: one with its bite and one with its tail."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage. If the target is a creature it must succeed on a {@dc 14} Constitution Saving throw or be {@condition paralyzed} for 1 minute. A {@condition paralyzed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Trident",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage in melee, or 7 ({@damage 1d8 + 3}) piercing damage if used with both hands to make a melee attack. If the target is a creature, the diabolus can choose one of the following additional effects:",
+						"The target must succeed on a {@dc 14} Strength saving throw or drop one item it is holding (diabolus’s choice).",
+						"The target must succeed on a {@dc 14} Dexterity saving throw or be knocked {@condition prone}.",
+						"The target must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} until the end of the diabolus’s next turn."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"paralyzed",
+				"prone",
+				"stunned"
+			],
+			"languages": [
+				"Diaboli"
+			],
+			"shortName": "Diabolus",
+			"skill": {
+				"perception": "+5"
+			}
+		}
+	]
+}

@@ -1,0 +1,126 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998566,
+		"dateLastModified": 1688998566
+	},
+	"monster": [
+		{
+			"name": "Vrogall",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "aberration",
+				"tags": [
+					"shapeshifter"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "6d10 + 18",
+				"average": 51
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 16,
+			"int": 13,
+			"wis": 12,
+			"cha": 10,
+			"passive": 11,
+			"cr": "4",
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Size.}} Large",
+					"{@bold {@italic Movement.}} Walks",
+					"{@bold {@italic Skin Texture.}} Tough flesh",
+					"{@bold {@italic Attacks.}} 2",
+					"{@bold {@italic Source of Attacks.}} Hands/claws",
+					"{@bold {@italic Primary Color.}} Orage",
+					"{@bold {@italic Shapeshifter?}} Yes",
+					"{@bold {@italic Saving Throws.}} Wizard",
+					"{@bold {@italic Magic Resistance.}} Nil",
+					"{@bold {@italic Extra Abilities.}} Gaseous Form 3/day, Body Poison and attacks with +1d6 poison damage"
+				]
+			},
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Vrogall can use its action to polymorph into a Medium or Large humanoid it has seen or a Medium cloud of mist, or back into its true form. Its statistics, other than its size, are the same in each form, except for the changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies. While in mist form, Vrogall can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage. Vrogall can only turn into a mist 3 times per day."
+					]
+				}
+			],
+			"traitTags": [
+				"Shapechanger"
+			],
+			"damageTags": [
+				"I",
+				"S"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Vrogall makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage, And the creature must succeed on a {@dc 13} Constitution saving throw or 4 ({@damage 1d8}) poison damage be {@condition poisoned} until Vrogall's next turn."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"group": [
+				"Night Parade",
+				"Ergok's Cell"
+			],
+			"isNpc": true
+		}
+	]
+}

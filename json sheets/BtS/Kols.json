@@ -1,0 +1,154 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998263,
+		"dateLastModified": 1688998263
+	},
+	"monster": [
+		{
+			"name": "Kols",
+			"size": [
+				"S"
+			],
+			"type": "aberration",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d6 + 2",
+				"average": 9
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40,
+				"canHover": false
+			},
+			"str": 6,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 12,
+			"cha": 9,
+			"passive": 11,
+			"cr": "1",
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Size.}} Small",
+					"{@bold {@italic Movement.}} Flies",
+					"{@bold {@italic Skin Texture.}} Woody",
+					"{@bold {@italic Attacks.}} 2",
+					"{@bold {@italic Source of Attacks.}} Tentacle",
+					"{@bold {@italic Primary Color.}} Black",
+					"{@bold {@italic Shapeshifter?}} Yes",
+					"{@bold {@italic Saving Throws.}} Warrior",
+					"{@bold {@italic Magic Resistance.}} Nil",
+					"{@bold {@italic Extra Abilities.}} Clairvoyance, spider climb"
+				]
+			},
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"Kols can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Kols can use its action to polymorph into a Small humanoid, a beast form that resembles a bat (speed 10 feet fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"traitTags": [
+				"Shapechanger",
+				"Spider Climb"
+			],
+			"isNamedCreature": true,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Kols's innate spellcasting ability is Wisdom. Kols can innately cast the following spell, requiring no material components:"
+					],
+					"daily": {
+						"3": [
+							"{@spell clairvoyance}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kols makes two tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"group": [
+				"Night Parade",
+				"Ergok's Cell"
+			],
+			"isNpc": true
+		}
+	]
+}

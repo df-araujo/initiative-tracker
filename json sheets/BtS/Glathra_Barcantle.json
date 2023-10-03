@@ -1,0 +1,193 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998245,
+		"dateLastModified": 1688998245
+	},
+	"monster": [
+		{
+			"name": "Glathra Barcantle",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 12",
+				"average": 66
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 12,
+			"con": 12,
+			"int": 17,
+			"wis": 14,
+			"cha": 11,
+			"passive": 12,
+			"cr": "7",
+			"shortName": "Glathra",
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"Elvish",
+				"Gnomish"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"E",
+				"G"
+			],
+			"save": {
+				"int": "+6",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+6",
+				"insight": "+5",
+				"religion": "+6"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Glathra is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Glathra has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash}",
+								"{@spell blade ward}",
+								"{@spell light}",
+								"{@spell minor illusion}",
+								"{@spell ray of frost}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell chromatic orb}",
+								"{@spell detect magic}",
+								"{@spell false life}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell knock}",
+								"{@spell Melf's acid arrow}",
+								"{@spell web}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell blink}",
+								"{@spell dispel magic}",
+								"{@spell sleet storm}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell conjure minor elementals}",
+								"{@spell fire shield}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell scrying}",
+								"{@spell wall of stone}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell guards and wards}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L",
+				"T"
+			],
+			"damageTags": [
+				"P"
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} To pose as an obstacle to the players.",
+					"{@bold {@italic Trait.}} I am imperious and rude in the fulfilment of my duties. (Flaw)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Insquisitive (You tell me: what should that be?)",
+					"{@bold {@italic Posture.}} Uptight with hands backwards.",
+					"{@bold {@italic Pause.}} Rolling her eyes around.",
+					"{@bold {@italic Pfidget.}} Stomping her feet on the ground."
+				]
+			}
+		}
+	]
+}

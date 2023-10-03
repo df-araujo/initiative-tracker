@@ -1,0 +1,111 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998277,
+		"dateLastModified": 1688998277
+	},
+	"monster": [
+		{
+			"name": "Martin",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 6",
+				"average": 15
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 13,
+			"con": 16,
+			"int": 9,
+			"wis": 12,
+			"cha": 11,
+			"passive": 13,
+			"cr": "1/4",
+			"languages": [
+				"Common",
+				"Halfling"
+			],
+			"languageTags": [
+				"C",
+				"H"
+			],
+			"skill": {
+				"athletics": "+5",
+				"perception": "+3",
+				"sleight of hand": "+3"
+			},
+			"action": [
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Aid the players and bring out their stories.",
+					"{@bold {@italic Trait.}} I am gentle and caring towards my companions. (Virtue)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} ",
+					"{@bold {@italic Posture.}} ",
+					"{@bold {@italic Pause.}} ",
+					"{@bold {@italic Pfidget.}} ",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"group": [
+				"Blue Dragons"
+			]
+		}
+	]
+}

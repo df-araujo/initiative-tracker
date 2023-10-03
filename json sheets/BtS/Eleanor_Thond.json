@@ -1,0 +1,183 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998226,
+		"dateLastModified": 1688998226
+	},
+	"monster": [
+		{
+			"name": "Eleanor Thond",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 8",
+				"average": 44
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 14,
+			"wis": 11,
+			"cha": 17,
+			"passive": 10,
+			"cr": "5",
+			"languages": [
+				"Celestial",
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"languageTags": [
+				"CE",
+				"C",
+				"E",
+				"S"
+			],
+			"save": {
+				"cha": "+6",
+				"dex": "+5"
+			},
+			"skill": {
+				"performance": "+6",
+				"investigation": "+5",
+				"persuasion": "+6"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Eleanor is an 8th-level spellcaster. Her spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). She has the following bard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell friends}",
+								"{@spell prestidigitation}",
+								"{@spell vicious mockery}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell faerie fire}",
+								"{@spell feather fall}",
+								"{@spell healing word}",
+								"{@spell Tasha's hideous laughter}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell calm emotions}",
+								"{@spell hold person}",
+								"{@spell silence}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell clairvoyance}",
+								"{@spell major image}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell confusion}",
+								"{@spell greater invisibility}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CB"
+			],
+			"shortName": "Eleanor",
+			"damageTagsSpell": [
+				"Y"
+			],
+			"trait": [
+				{
+					"name": "Song of Rest",
+					"entries": [
+						"Eleanor can perform a song while taking a short rest. Any ally who hears the song regains an extra {@dice 1d6} hit points if it spends any Hit Dice to regain hit points at the end of that rest. Eleanor can confer this benefit on herself as well."
+					]
+				},
+				{
+					"name": "Taunt (3/Day)",
+					"entries": [
+						"Eleanor can use a bonus action on her turn to target one creature within 30 feet of her. If the target can hear Eleanor, the target must succeed on a {@dc 14} Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Eleanor's next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} (Unknown).",
+					"{@bold {@italic Trait.}} I am ambitious and willing to do anything in order to achieve my goals. (Virtue)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Energic (And what would that be? Seems interesting!)",
+					"{@bold {@italic Posture.}} Straight with hands forward.",
+					"{@bold {@italic Pause.}} Humming \"Hagrid the Professor\".",
+					"{@bold {@italic Pfidget.}} Blinking a lot."
+				]
+			},
+			"isNpc": true
+		}
+	]
+}

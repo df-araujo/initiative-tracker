@@ -1,0 +1,108 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998243,
+		"dateLastModified": 1688998243
+	},
+	"monster": [
+		{
+			"name": "Gilles",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item half plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 8",
+				"average": 26
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 13,
+			"con": 14,
+			"int": 12,
+			"wis": 12,
+			"cha": 14,
+			"passive": 11,
+			"cr": "1",
+			"languages": [
+				"Common",
+				"Halfling",
+				"Orc",
+				"Undercommon"
+			],
+			"languageTags": [
+				"C",
+				"H",
+				"O",
+				"U"
+			],
+			"skill": {
+				"athletics": "+3",
+				"intimidation": "+4",
+				"deception": "+4",
+				"survival": "+3",
+				"nature": "+3"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Gilles makes two attack with his longsword."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) slashing damage, or 6 ({@damage 1d10 + 1}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"isNpc": true,
+			"isNamedCreature": true
+		}
+	]
+}

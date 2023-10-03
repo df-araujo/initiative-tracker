@@ -1,0 +1,185 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171864,
+		"dateLastModified": 1696171864
+	},
+	"monster": [
+		{
+			"name": "Presmer Avhoster",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item scale mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 44",
+				"average": 93
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 15,
+			"con": 18,
+			"int": 15,
+			"wis": 12,
+			"cha": 12,
+			"passive": 11,
+			"cr": "3",
+			"shortName": "Presmer",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Giant",
+				"Gnomish"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"GI",
+				"G"
+			],
+			"save": {
+				"str": "+4",
+				"con": "+5"
+			},
+			"skill": {
+				"athletics": "+4",
+				"arcana": "+4",
+				"history": "+4"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Presmer makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Persmer is an 8th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 12}, {@hit 4} to hit with spell attacks). Presmer has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell blade ward}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell alarm}",
+								"{@spell identify}",
+								"{@spell shield}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell gust of wind}",
+								"{@spell knock}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"trait": [
+				{
+					"name": "Weapon Bond",
+					"entries": [
+						"Provided his longsword is on the same plane, Presmer can take a bonus action to teleport it to his hand."
+					]
+				},
+				{
+					"name": "War Magic",
+					"entries": [
+						"When Presmer uses his action to cast a cantrip, he can also take a bonus action to make one weapon attack."
+					]
+				}
+			],
+			"damageTagsSpell": [
+				"L",
+				"T"
+			],
+			"isNpc": true,
+			"actionTags": [
+				"Multiattack"
+			],
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Purpose.}} Guide the players and give them quests.",
+					"{@bold {@italic Trait.}} I honor my role and I protect those subordinate to me. (Virtue)"
+				]
+			},
+			"group": [
+				"Church of Mystra",
+				"Knights of the Mystic Fire"
+			]
+		}
+	]
+}

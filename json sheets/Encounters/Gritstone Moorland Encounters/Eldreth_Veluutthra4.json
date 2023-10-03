@@ -1,0 +1,12 @@
+{
+    "monster1": {
+        "monster": "Eldreth_Veluuthra_Manhunter.json",
+        "source": "BtS",
+        "amount": 3
+    },
+	"monster2": {
+        "monster": "Werewolf.json",
+        "source": "MM",
+        "amount": 2
+    }
+}

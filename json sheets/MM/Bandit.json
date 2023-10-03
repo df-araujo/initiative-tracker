@@ -1,0 +1,107 @@
+{
+	"name": "Bandit",
+	"source": "BeforetheStorm",
+	"page": 343,
+	"basicRules": true,
+	"size": [
+		"M"
+	],
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"any race"
+		]
+	},
+	"alignment": [
+		"NX",
+		"C",
+		"G",
+		"NY",
+		"E"
+	],
+	"ac": [
+		{
+			"ac": 12,
+			"from": [
+				"{@item leather armor|phb}"
+			]
+		}
+	],
+	"hp": {
+		"average": 11,
+		"formula": "2d8 + 2"
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 11,
+	"dex": 12,
+	"con": 12,
+	"int": 10,
+	"wis": 10,
+	"cha": 10,
+	"passive": 10,
+	"languages": [
+		"any one language (usually Common)"
+	],
+	"cr": "1/8",
+	"action": [
+		{
+			"name": "Scimitar",
+			"entries": [
+				"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+			]
+		},
+		{
+			"name": "Light Crossbow",
+			"entries": [
+				"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+			]
+		}
+	],
+	"environment": [
+		"arctic",
+		"coastal",
+		"desert",
+		"forest",
+		"hill",
+		"urban"
+	],
+	"soundClip": {
+		"type": "external",
+		"url": "https://5e.tools/audio/bestiary/bandit.mp3"
+	},
+	"languageTags": [
+		"C",
+		"X"
+	],
+	"damageTags": [
+		"P",
+		"S"
+	],
+	"miscTags": [
+		"MW",
+		"RNG",
+		"RW"
+	],
+	"hasFluff": true,
+	"tokenUrl": "https://5e.tools/img/MM/Bandit.png",
+	"fluff": {
+		"name": "Bandit",
+		"source": "MM",
+		"entries": [
+			{
+				"type": "entries",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
+							"Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels."
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,176 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998554,
+		"dateLastModified": 1688998554
+	},
+	"monster": [
+		{
+			"name": "Unzel",
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 9,
+			"con": 15,
+			"int": 13,
+			"wis": 10,
+			"cha": 12,
+			"passive": 10,
+			"cr": "4",
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} To oppose the players and serve as an obstacle.",
+					"{@bold {@italic Trait.}} I sometimes talk way more than I should.",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Mocky (Wait, you don't know? Stupid)",
+					"{@bold {@italic Posture.}} Upstraight with shoulders lowered.",
+					"{@bold {@italic Pause.}} Scratching his chin.",
+					"{@bold {@italic Pfidget.}} Licking his lips.",
+					"== Night Parade Generator ==",
+					"{@bold {@italic Size.}} Medium",
+					"{@bold {@italic Movement.}} Walks",
+					"{@bold {@italic Skin Texture.}} Stony",
+					"{@bold {@italic Attacks.}} 3",
+					"{@bold {@italic Source of Attacks.}} Extra arm or leg",
+					"{@bold {@italic Primary Color.}} Gray",
+					"{@bold {@italic Shapeshifter?}} Shapeshifter (changed from non-shapeshifter)",
+					"{@bold {@italic Saving Throws.}} Rogue",
+					"{@bold {@italic Magic Resistance.}} 5%",
+					"{@bold {@italic Extra Abilities.}} Spews liquid fire from mouth. One ear can grow to 61 cm, casting {@spell clairvoyance}."
+				]
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech"
+			],
+			"languageTags": [
+				"C",
+				"DS"
+			],
+			"skill": {
+				"athletics": "+5",
+				"performance": "+3",
+				"deception": "+3"
+			},
+			"save": {
+				"int": "+3"
+			},
+			"conditionImmune": [
+				"petrified"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Unzel's innate spellcasting ability is Intelligence (spell save {@dc 11}). Unzel can innately cast the following spell, requiring no material components:"
+					],
+					"daily": {
+						"1e": [
+							"{@spell clairvoyance}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Unzel can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"traitTags": [
+				"Shapechanger"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Unzel makes three slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Fire Spew {@recharge 5}",
+					"entries": [
+						"Unzel spews liquid fire from his mouth. Every creature in a 25-foot cone must succeed on a {@dc 12} Dexterity saving throw, taking 11 ({@damage 2d10}) fire damage on a failed save, or half as much on a successful one."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"immune": [
+				"fire"
+			],
+			"group": [
+				"Night Parade",
+				"Vragmun's Cell"
+			],
+			"isNpc": true
+		}
+	]
+}

@@ -1,0 +1,181 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998231,
+		"dateLastModified": 1688998231
+	},
+	"monster": [
+		{
+			"name": "Emerdur Dorbarthoun",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item chain shirt|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d8 + 36",
+				"average": 76
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 17,
+			"dex": 12,
+			"con": 18,
+			"int": 11,
+			"wis": 12,
+			"cha": 11,
+			"passive": 11,
+			"cr": "5",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Gnomish",
+				"Goblin"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"G",
+				"GO"
+			],
+			"save": {
+				"con": "+7",
+				"wis": "+4",
+				"cha": "+3"
+			},
+			"skill": {
+				"athletics": "+6",
+				"history": "+3",
+				"intimidation": "+3"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Emerdur makes three melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Handaxe",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"Emerdur has advantage on saving throws against poison, and has resistance against poison damage."
+					]
+				},
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"Emerdur can reroll a saving throw that he fails. He must use the new roll."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Emerdur can use a bonus action to regain 15 hit points."
+					]
+				}
+			],
+			"resist": [
+				{
+					"resist": [
+						"poison"
+					]
+				}
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Emerdur adds 3 to his AC against one melee attack that would hit him. To do so, Emerdur must see the attacker and be wielding a melee weapon"
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Give the players quests and accompany them.",
+					"{@bold {@italic Trait.}} I believe I deserve more than I get, and I don't trust fully those under me. (Flaw)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Impatient (How should I know? Leave me alone.)",
+					"{@bold {@italic Posture.}} Uptight with arms crossed.",
+					"{@bold {@italic Pause.}} Scratching beard while repeating subject.",
+					"{@bold {@italic Pfidget.}} Sharpening my axe.",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"shortName": "Emeran",
+			"group": [
+				"Clan Ironthunder"
+			]
+		}
+	]
+}

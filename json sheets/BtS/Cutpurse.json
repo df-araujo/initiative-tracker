@@ -1,0 +1,110 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1689780599,
+		"dateLastModified": 1689780599
+	},
+	"monster": [
+		{
+			"name": "Cutpurse",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				{
+					"special": "Any Non-Lawful Alignment"
+				},
+				{
+					"special": "Non-Good Alignment"
+				}
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8",
+				"average": 9
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"passive": 12,
+			"cr": "1/4",
+			"languages": [
+				"any one language (usually Common)",
+				"Thieves' cant"
+			],
+			"languageTags": [
+				"C",
+				"X",
+				"TC"
+			],
+			"skill": {
+				"acrobatics": "+4",
+				"deception": "+2",
+				"perception": "+2",
+				"sleight of hand": "+4"
+			},
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the cutpurse can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"environment": [
+				"urban"
+			]
+		}
+	]
+}

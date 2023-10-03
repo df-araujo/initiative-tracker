@@ -1,0 +1,192 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1690684819,
+		"dateLastModified": 1690684819
+	},
+	"monster": [
+		{
+			"name": "Nendel Jarst",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "1d8 + 1",
+				"average": 5
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 11,
+			"cha": 11,
+			"passive": 12,
+			"cr": "1/4",
+			"shortName": "Nendel",
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"skill": {
+				"perception": "+2"
+			},
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The son of the Jarst family of artisans, he dreams of being a great archer.",
+									{
+										"name": "Two-Note NPC",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Purpose",
+												"type": "entries",
+												"entries": [
+													"Tournament opponent."
+												]
+											},
+											{
+												"name": "Trait",
+												"type": "entries",
+												"entries": [
+													"I aspire to one day be a great archer. (Type of trait)"
+												]
+											}
+										]
+									},
+									{
+										"name": "Four P’s of Playacting",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Personality",
+												"type": "entries",
+												"entries": [
+													"A version of 'I don't know'. (Type of personality)"
+												]
+											},
+											{
+												"name": "Posture",
+												"type": "entries",
+												"entries": [
+													"Posture."
+												]
+											},
+											{
+												"name": "Pause",
+												"type": "entries",
+												"entries": [
+													"Pause phrase or gesture."
+												]
+											},
+											{
+												"name": "Pfidget",
+												"type": "entries",
+												"entries": [
+													"Repeating gesture."
+												]
+											}
+										]
+									},
+									{
+										"name": "Social Interaction",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Objections",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Objection 1",
+														"type": "entries",
+														"entries": [
+															"Objection 1 explanation. (score)"
+														]
+													}
+												]
+											},
+											{
+												"name": "Incentives",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Incentive 1",
+														"type": "entries",
+														"entries": [
+															"Incentive 1 explanation. (score)"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"isNpc": true,
+			"group": [
+				"Tourney of Champions",
+				"Archery"
+			],
+			"action": [
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit +4} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"RNG"
+			]
+		}
+	]
+}

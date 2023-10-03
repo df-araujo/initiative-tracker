@@ -1,0 +1,157 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998557,
+		"dateLastModified": 1688998557
+	},
+	"monster": [
+		{
+			"name": "Vandara \"The Vixen\" Thulont",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item +1 leather armor}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 16",
+				"average": 88
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 19,
+			"con": 13,
+			"int": 14,
+			"wis": 13,
+			"cha": 15,
+			"passive": 14,
+			"cr": "6",
+			"shortName": "Vandara",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Giant",
+				"Goblin"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"GI",
+				"GO"
+			],
+			"save": {
+				"dex": "+6",
+				"int": "+5"
+			},
+			"skill": {
+				"acrobatics": "+6",
+				"stealth": "+9",
+				"survival": "+4",
+				"perception": "+4"
+			},
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Once per turn, Vandara deals an extra 14 ({@dice 4d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Vandara that isn't {@condition incapacitated} and Vandara doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of her turns, Vandara can use a bonus action to take the {@action dash||Dash}, {@action disengage||Disengage}, or {@action hide||Hide} action."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Vandara is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, Vandara instead takes no damage if she succeeds on the saving throw, and only half damage if she fails."
+					]
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"Vandara halves the damage that she takes from an attack that hits her. Vandara must be able to see the attacker."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Vandara makes two melee or ranged weapon attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "+1 Longbow",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, range 150/600 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW",
+				"RNG"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Purpose.}} Lead a resistance against the encroaching goblinoids and train the players.",
+					"{@bold {@italic Trait.}} I am prejudiced towards men, and don't respect them as much as women. (Flaw)"
+				]
+			},
+			"isNpc": true
+		}
+	]
+}

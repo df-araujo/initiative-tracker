@@ -1,0 +1,82 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171903,
+		"dateLastModified": 1696171903
+	},
+	"monster": [
+		{
+			"name": "Sulsa Huntcrown",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "1d8 - 1",
+				"average": 3
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 10,
+			"con": 9,
+			"int": 11,
+			"wis": 12,
+			"cha": 11,
+			"passive": 11,
+			"cr": "0",
+			"shortName": "Sulsa",
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Quest giver NPC.",
+					"{@bold {@italic Trait.}} I am mournful and sorrowful over my husband's death. (Suffering)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Pessimistic (I don't know, and probably no one does.)",
+					"{@bold {@italic Posture.}} Normal holding my hand against my chest.",
+					"{@bold {@italic Pause.}} Growling.",
+					"{@bold {@italic Pfidget.}} Sniveling and whining."
+				]
+			},
+			"isNpc": true,
+			"group": [
+				"House Huntcrown",
+				"Cormyrean Nobility"
+			]
+		}
+	]
+}

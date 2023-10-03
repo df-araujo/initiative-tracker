@@ -1,0 +1,113 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1689951980,
+		"dateLastModified": 1689951980
+	},
+	"monster": [
+		{
+			"name": "Green Warder",
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 14",
+				"average": 45
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 15,
+			"dex": 10,
+			"con": 14,
+			"int": 7,
+			"wis": 16,
+			"cha": 11,
+			"passive": 13,
+			"cr": "2",
+			"languages": [
+				"Elvish"
+			],
+			"languageTags": [
+				"E"
+			],
+			"damageTags": [
+				"S"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The green warder makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The green warder's innate spellcasting ability is Wisdom (spell save {@dc 13}). The green warder can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell sleep}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell alarm}",
+							"{@spell confusion}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"environment": [
+				"forest"
+			]
+		}
+	]
+}

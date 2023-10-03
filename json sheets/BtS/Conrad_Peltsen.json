@@ -1,0 +1,101 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171507,
+		"dateLastModified": 1696171507
+	},
+	"monster": [
+		{
+			"name": "Conrad Peltsen",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"formula": "1d8 - 1",
+				"average": 3
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 9,
+			"int": 13,
+			"wis": 13,
+			"cha": 16,
+			"passive": 11,
+			"cr": "0",
+			"shortName": "Conrad",
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Giant",
+				"Halfling"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"GI",
+				"H"
+			],
+			"skill": {
+				"history": "+3",
+				"religion": "+3",
+				"persuasion": "+5",
+				"intimidation": "+5"
+			},
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Run the Council of Teziir, and the city itself.",
+					"{@bold {@italic Trait.}} I treat those under me as tools to be used on my trade. (Flaw)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Bureocratic (I do not possess this knowledge.)",
+					"{@bold {@italic Posture.}} Slightly bent forward.",
+					"{@bold {@italic Pause.}} Searching on papers on hand and repeating subject.",
+					"{@bold {@italic Pfidget.}} Shuffling papers.",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"group": [
+				"Teziir",
+				"Council of Teziir"
+			]
+		}
+	]
+}

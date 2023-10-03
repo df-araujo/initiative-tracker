@@ -1,0 +1,154 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171874,
+		"dateLastModified": 1696171874
+	},
+	"monster": [
+		{
+			"name": "Queen Raedra Obarskyr",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 28",
+				"average": 91
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 18,
+			"con": 14,
+			"int": 12,
+			"wis": 13,
+			"cha": 17,
+			"passive": 14,
+			"cr": "6",
+			"shortName": "Raedra",
+			"languages": [
+				"Common",
+				"Dwarvish",
+				"Elvish",
+				"Gnomish",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"G",
+				"S"
+			],
+			"save": {
+				"str": "+4",
+				"con": "+5"
+			},
+			"skill": {
+				"athletics": "+4",
+				"history": "+4",
+				"perception": "+4",
+				"insight": "+4"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Raedra makes three melee attacks."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Raedra has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"Raedra rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, Raedra can regain 15 hit points."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Assist in judging the players.",
+					"{@bold {@italic Trait.}} I am growing tired of the Crown and wish to settle down away from it. (Suffering)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Impatient (How should I know? Leave me alone)",
+					"{@bold {@italic Posture.}} Upstraight with arms supported on chair arms.",
+					"{@bold {@italic Pause.}} Put my index finger on my lips.",
+					"{@bold {@italic Pfidget.}} Hitting finger on chair arm.",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"group": [
+				"Suzail",
+				"Cormyrean Nobility",
+				"Royal Family"
+			]
+		}
+	]
+}

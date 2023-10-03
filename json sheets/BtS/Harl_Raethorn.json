@@ -1,0 +1,207 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1690684861,
+		"dateLastModified": 1690684861
+	},
+	"monster": [
+		{
+			"name": "Harl Raethorn",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 14,
+			"passive": 10,
+			"cr": "1",
+			"shortName": "Harl",
+			"languages": [
+				"Common",
+				"Gnomish"
+			],
+			"languageTags": [
+				"C",
+				"G"
+			],
+			"skill": {
+				"athletics": "+4",
+				"animal handling": "+2"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Harl makes two melee attacks."
+					]
+				},
+				{
+					"name": "Lance",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d12 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A knight from Aunkspear in Cormyr.",
+									{
+										"name": "Two-Note NPC",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Purpose",
+												"type": "entries",
+												"entries": [
+													"Tournament opponent."
+												]
+											},
+											{
+												"name": "Trait",
+												"type": "entries",
+												"entries": [
+													"I am outgoing and extroverted, always trying to make friends. (Virtue)"
+												]
+											}
+										]
+									},
+									{
+										"name": "Four P’s of Playacting",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Personality",
+												"type": "entries",
+												"entries": [
+													"A version of 'I don't know'. (Type of personality)"
+												]
+											},
+											{
+												"name": "Posture",
+												"type": "entries",
+												"entries": [
+													"Posture."
+												]
+											},
+											{
+												"name": "Pause",
+												"type": "entries",
+												"entries": [
+													"Pause phrase or gesture."
+												]
+											},
+											{
+												"name": "Pfidget",
+												"type": "entries",
+												"entries": [
+													"Repeating gesture."
+												]
+											}
+										]
+									},
+									{
+										"name": "Social Interaction",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Objections",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Objection 1",
+														"type": "entries",
+														"entries": [
+															"Objection 1 explanation. (score)"
+														]
+													}
+												]
+											},
+											{
+												"name": "Incentives",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Incentive 1",
+														"type": "entries",
+														"entries": [
+															"Incentive 1 explanation. (score)"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"isNpc": true,
+			"group": [
+				"Tourney of Champions",
+				"Joust"
+			]
+		}
+	]
+}

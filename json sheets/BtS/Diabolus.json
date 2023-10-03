@@ -1,0 +1,139 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998211,
+		"dateLastModified": 1688998211
+	},
+	"monster": [
+		{
+			"name": "Diabolus",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"diabolus"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 15,
+			"int": 10,
+			"wis": 12,
+			"cha": 11,
+			"passive": 11,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Cartwheel Dash (1/Day)",
+					"entries": [
+						"If the diabolus is wielding a trident, it can increase its speed for up to 1 minute as if affected by the {@spell haste} spell. Until the effect ends, the diabolus gains a +2 bonus to AC, it doubles its base move speed, it has advantage on Dexterity saving throws, and it can only take the Dash and Disengage actions on its turn. When the effect ends, the diabolus can’t move or take actions until after its next turn, as a wave of lethargy sweeps over it."
+					]
+				},
+				{
+					"name": "Charge",
+					"entries": [
+						"If the diabolus moves at least 10 feet straight toward a target and then hits it with a trident attack on the same turn, the target takes an extra 9 ({@damage 2d8}) piercing damage."
+					]
+				},
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The diabolus has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Nightmare Denizen",
+					"entries": [
+						"The diabolus is immune to spells and spell-like effects used by creatures that do not have the nightmare denizen tag. Inversely, spells and spell-like effects used by the diabolus have no effect on creatures that do not have the nightmare denizen tag."
+					]
+				}
+			],
+			"traitTags": [
+				"Charge",
+				"Keen Senses"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The diabolus makes two attacks: one with its bite and one with its tail."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage. If the target is a creature it must succeed on a {@dc 12} Constitution Saving throw or be {@condition paralyzed} for 1 minute. A {@condition paralyzed} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Trident",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage in melee, or 6 ({@damage 1d8 + 2}) piercing damage if used with both hands to make a melee attack."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			],
+			"languages": [
+				"Diaboli"
+			],
+			"shortName": "Diabolus"
+		}
+	]
+}

@@ -1,0 +1,114 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998256,
+		"dateLastModified": 1688998256
+	},
+	"monster": [
+		{
+			"name": "Ildul Stonegiant",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item chain shirt|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 13,
+			"int": 11,
+			"wis": 10,
+			"cha": 13,
+			"passive": 10,
+			"cr": "1",
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"shortName": "Ildul",
+			"save": {
+				"str": "+2",
+				"con": "+4"
+			},
+			"trait": [
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest).",
+					"entries": [
+						"As a bonus action, Ildul can regain 5 hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with both hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW",
+				"RNG"
+			],
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Purpose.}} Aid the players in battle.",
+					"{@bold {@italic Trait.}} I am loyal and unwavering to Lord Thiombar. (Virtue)"
+				]
+			},
+			"isNpc": true
+		}
+	]
+}

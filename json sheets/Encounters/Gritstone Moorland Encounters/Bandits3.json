@@ -1,0 +1,12 @@
+{
+    "monster1": {
+        "monster": "Bandit_Captain.json",
+        "source": "MM",
+        "amount": 1
+    },
+    "monster2": {
+        "monster": "Bandit.json",
+        "source": "MM",
+        "amount": 5
+    }
+}

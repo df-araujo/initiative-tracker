@@ -1,0 +1,204 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171551,
+		"dateLastModified": 1696171551
+	},
+	"monster": [
+		{
+			"name": "Eldreth Veluuthra Nightwarden",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 22",
+				"average": 71
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 18,
+			"con": 14,
+			"int": 12,
+			"wis": 17,
+			"cha": 11,
+			"passive": 16,
+			"cr": "7",
+			"shortName": "Nightwarden",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"skill": {
+				"perception": "+6",
+				"survival": "+6",
+				"stealth": "+7"
+			},
+			"traitTags": [
+				"Ambusher",
+				"Fey Ancestry",
+				"Keen Senses",
+				"Sneak Attack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"environment": [
+				"forest"
+			],
+			"group": [
+				"Eldreth Veluuthra"
+			],
+			"save": {
+				"dex": "+7",
+				"wis": "+6"
+			},
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The nightwarden has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"The nightwarden deals an extra 7 ({@dice 2d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the nightwarden that isn't {@condition incapacitated} and the nightwarden doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"The nightwarden has advantage on saving throws against being {@condition charmed}, and magic can't put the nightwarden to sleep."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit +7} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage. If the target is a human, it must succeed on a {@dc 15} Constitution saving throw or be {@condition poisoned} until the end of its next turn."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The nighwarden's innate spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). The nighwarden can innately cast the following spells, requiring no material components:"
+					],
+					"daily": {
+						"1": [
+							"{@spell hold person}",
+							"{@spell ray of enfeeblement}"
+						],
+						"2": [
+							"{@spell bestow curse}",
+							"{@spell ray of sickness}"
+						],
+						"3": [
+							"{@spell dancing lights}",
+							"{@spell fog cloud}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Eldreth Veluuthra is an elven secret society committed to the eradication of all human life. They believe that humans despoil the natural world by their very nature and that no amount of guidance will change what they believe to be fundamental to human nature.",
+									"In Cormyr, the elves have gathered at a small spring within the Hullack Forest known as the Wyvernstones, where they and their fey allies plot strikes against the nearby human settlements.",
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Nightwarden",
+												"type": "entries",
+												"entries": [
+													"Nightwardens are the leaders of the Eldreth Veluuthra cell in the Hullack forest. They combine elven mastery of blade and bow with twisted druidic magic learned from the hags of the forest."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"damageTagsSpell": [
+				"I",
+				"N"
+			]
+		}
+	]
+}

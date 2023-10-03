@@ -1,0 +1,133 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998216,
+		"dateLastModified": 1688998216
+	},
+	"monster": [
+		{
+			"name": "Dolgrem mac Balgrim",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Dolgrem makes two melee attacks."
+					]
+				},
+				{
+					"name": "War Pick",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit +3} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 1}) piercing damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 15,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"passive": 10,
+			"cr": "1",
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"resist": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"Dolgrem has advantage on saving throws against poison, and has resistance against poison damage."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/SKT/Shield Dwarf Noble.png",
+			"shortName": "Dolgrem",
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"skill": {
+				"athletics": "+4",
+				"history": "+2"
+			},
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"group": [
+				"Clan Hammerhands"
+			]
+		}
+	]
+}

@@ -1,0 +1,113 @@
+{
+	"name": "Noble",
+	"source": "BeforetheStorm",
+	"page": 348,
+	"size": [
+		"M"
+	],
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"any race"
+		]
+	},
+	"alignment": [
+		"A"
+	],
+	"ac": [
+		{
+			"ac": 15,
+			"from": [
+				"{@item breastplate|phb}"
+			]
+		}
+	],
+	"hp": {
+		"average": 9,
+		"formula": "2d8"
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 11,
+	"dex": 12,
+	"con": 11,
+	"int": 12,
+	"wis": 14,
+	"cha": 16,
+	"skill": {
+		"deception": "+5",
+		"insight": "+4",
+		"persuasion": "+5"
+	},
+	"passive": 12,
+	"languages": [
+		"any two languages"
+	],
+	"cr": "1/8",
+	"action": [
+		{
+			"name": "Rapier",
+			"entries": [
+				"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) piercing damage."
+			]
+		}
+	],
+	"reaction": [
+		{
+			"name": "Parry",
+			"entries": [
+				"The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon."
+			]
+		}
+	],
+	"environment": [
+		"urban"
+	],
+	"soundClip": {
+		"type": "external",
+		"url": "https://5e.tools/audio/bestiary/noble.mp3"
+	},
+	"actionTags": [
+		"Parry"
+	],
+	"languageTags": [
+		"X"
+	],
+	"damageTags": [
+		"P"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"hasFluff": true,
+	"hasFluffImages": true,
+	"tokenUrl": "https://5e.tools/img/MM/Noble.png",
+	"fluff": {
+		"name": "Noble",
+		"source": "MM",
+		"entries": [
+			{
+				"type": "entries",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Nobles wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.",
+							"The noble's statistics can also be used to represent courtiers who aren't of noble birth."
+						]
+					}
+				]
+			}
+		],
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "bestiary/MM/Noble.jpg"
+				}
+			}
+		]
+	}
+}

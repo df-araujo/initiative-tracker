@@ -1,0 +1,123 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998218,
+		"dateLastModified": 1688998218
+	},
+	"monster": [
+		{
+			"name": "Dolgrom mac Balgrim",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Dolgrom makes two melee attacks."
+					]
+				},
+				{
+					"name": "Warhammer",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage, or 8 ({@damage 1d10 + 3}) bludgeoning damage if used with both hands."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 18",
+				"average": 45
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 16,
+			"int": 9,
+			"wis": 10,
+			"cha": 11,
+			"passive": 10,
+			"cr": "2",
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"resist": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"Dolgrom has advantage on saving throws against poison, and has resistance against poison damage."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/SKT/Shield Dwarf Noble.png",
+			"shortName": "Dolgrom",
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"skill": {
+				"athletics": "+5"
+			},
+			"isNamedCreature": true,
+			"isNpc": true,
+			"group": [
+				"Clan Hammerhands"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}

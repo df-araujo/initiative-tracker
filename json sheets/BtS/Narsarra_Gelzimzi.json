@@ -1,0 +1,289 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171727,
+		"dateLastModified": 1696171727
+	},
+	"monster": [
+		{
+			"name": "Narsarra Gelzimzi",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "8d8 + 8",
+				"average": 44
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 15,
+			"con": 12,
+			"int": 16,
+			"wis": 18,
+			"cha": 16,
+			"passive": 16,
+			"cr": "2",
+			"shortName": "Narsarra",
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Deep Speech",
+				"Gnomish",
+				"Primordial",
+				"Sylvan"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DS",
+				"G",
+				"P",
+				"S"
+			],
+			"save": {
+				"wis": "+6",
+				"cha": "+5"
+			},
+			"skill": {
+				"arcana": "+7",
+				"religion": "+7",
+				"history": "+5",
+				"deception": "+5",
+				"perception": "+6",
+				"stealth": "+4"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Narsarra is an 8th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Narsarra has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell sacred flame}",
+								"{@spell spare the dying}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bane}",
+								"{@spell command}",
+								"{@spell detect evil and good}",
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell augury}",
+								"{@spell calm emotions}",
+								"{@spell enhance ability}",
+								"{@spell hold person}",
+								"{@spell suggestion}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell glyph of warding}",
+								"{@spell nondetection}",
+								"{@spell remove curse}",
+								"{@spell speak with dead}",
+								"{@spell tongues}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell arcane eye}",
+								"{@spell confusion}",
+								"{@spell divination}",
+								"{@spell locate creature}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"L",
+				"R",
+				"T"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 60/80 ft., one target. {@h}4 ({@damage 1d4 + 2}) damage."
+					]
+				},
+				{
+					"name": "Knowledge of the Ages (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Narsarra chooses one skill or tool. For 10 minutes, she has proficiency with the chosen skill or tool."
+					]
+				},
+				{
+					"name": "Read Thoughts (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, Narsarra can magically read the surface thoughts of one creature she can see within 60 feet of her that fails on a {@dc 14} Wisdom saving throw. If the creature succeeds on the saving throw, it is immune to this effect until Narsarra finishes a long rest. Narsarra can end the effect early by using an action to cast the {@spell suggestion} spell on the creature without spending a spell slot. The creature automatically fails its saving throw against the spell."
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A Gur woman and ex-member of the Sibylline Sisterhood. She is currently in Cormyr.",
+									{
+										"name": "Two-Note NPC",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Purpose",
+												"type": "entries",
+												"entries": [
+													"Provide divination services and give quests."
+												]
+											},
+											{
+												"name": "Trait",
+												"type": "entries",
+												"entries": [
+													"I am too mysterious and cryptic, not providing enough information for my clients. (Flaw)"
+												]
+											}
+										]
+									},
+									{
+										"name": "Four P’s of Playacting",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Personality",
+												"type": "entries",
+												"entries": [
+													"I don't know... Yet. (Cryptic)"
+												]
+											},
+											{
+												"name": "Posture",
+												"type": "entries",
+												"entries": [
+													"Normal with head bent forward."
+												]
+											},
+											{
+												"name": "Pause",
+												"type": "entries",
+												"entries": [
+													"Repeating the words 'Third eye, show me'."
+												]
+											},
+											{
+												"name": "Pfidget",
+												"type": "entries",
+												"entries": [
+													"Pondering her orb or caressing her amulet."
+												]
+											}
+										]
+									},
+									{
+										"name": "Social Interaction",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Objections",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Objection 1",
+														"type": "entries",
+														"entries": [
+															"Objection 1 explanation. (score)"
+														]
+													}
+												]
+											},
+											{
+												"name": "Incentives",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Incentive 1",
+														"type": "entries",
+														"entries": [
+															"Incentive 1 explanation. (score)"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"group": [
+				"Church of Savras"
+			]
+		}
+	]
+}

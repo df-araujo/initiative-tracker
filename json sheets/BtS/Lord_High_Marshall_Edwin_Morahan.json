@@ -1,0 +1,218 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171685,
+		"dateLastModified": 1696171685
+	},
+	"monster": [
+		{
+			"name": "Lord High Marshall Edwin Morahan",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "22d8 + 66",
+				"average": 165
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 11,
+			"con": 16,
+			"int": 11,
+			"wis": 13,
+			"cha": 16,
+			"passive": 11,
+			"cr": "10",
+			"shortName": "Edwin",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Gnomish"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"G"
+			],
+			"save": {
+				"wis": "+5",
+				"cha": "+6",
+				"str": "+8",
+				"con": "+7"
+			},
+			"skill": {
+				"athletics": "+6",
+				"animal handling": "+5"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Edwin is a 15th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). He has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell command}",
+								"{@spell divine favor}",
+								"{@spell protection from evil and good}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell branding smite}",
+								"{@spell locate object}",
+								"{@spell zone of truth}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell blinding smite}",
+								"{@spell daylight}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell aura of life}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"damageTagsSpell": [
+				"R"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Edwin makes three melee attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, Edwin can utter a command or warning whenever a non-hostile creature that he can see within 30 feet of him makes an attack roll or saving throw. The creature can add a {@dice d4} to its roll, provided it can hear and understand Edwin. A creature can benefit from only one Leadership die at a time. This effect ends if Edwin is {@condition incapacitated}."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"trait": [
+				{
+					"name": "Aura of Protection",
+					"entries": [
+						"Whenever Edwin or a friendly creature within 10 feet of him must make a saving throw, the creature gains a +3 bonus to the saving throw. Edwin must be conscious to grant this bonus."
+					]
+				},
+				{
+					"name": "Death Before Dishonor",
+					"entries": [
+						"Edwin has advantage on saving throws against being {@condition charmed} or {@condition frightened}. "
+					]
+				},
+				{
+					"name": "Sentinel",
+					"entries": [
+						"When Edwin hits a creature with an opportunity attack, the creature’s speed becomes 0 for the rest of the turn. Creatures provoke attacks of opportunity from Edwin even if they use the {@action Disengage} action before leaving his reach."
+					]
+				}
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Judge the players in court.",
+					"{@bold {@italic Trait.}} I am resolute and always put my responsibilities above anything. (Virtue)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Honorable (I apologize for my ignorance on this.) ",
+					"{@bold {@italic Posture.}} Uptight with hands helf backwards.",
+					"{@bold {@italic Pause.}} Humming.",
+					"{@bold {@italic Pfidget.}} Nodding decisively.",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"Distrusts foreigner adventurers: 4",
+					"Duty to honor the lives of the people: 8",
+					"{@bold {@italic Incentives.}}",
+					"Trusts the players: 2",
+					"Trusts Vainrence/Eleanor: 6",
+					"Fears the Night Parade might threat Cormyr: 3"
+				]
+			},
+			"reaction": [
+				{
+					"name": "Bodyguard",
+					"entries": [
+						"If a creature within 5 feet of Edwin is hit by an attack roll, the Edwin may use his reaction to force the attacking creature to reroll their attack, potentially causing it to miss. To use this ability, the Edwin must be able to see both the creature and its attacker."
+					]
+				}
+			],
+			"group": [
+				"Suzail",
+				"Purple Dragons"
+			]
+		}
+	]
+}

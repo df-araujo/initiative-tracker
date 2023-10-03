@@ -1,0 +1,115 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998285,
+		"dateLastModified": 1688998285
+	},
+	"monster": [
+		{
+			"name": "Philipp",
+			"source": "BeforetheStorm",
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item splint armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 8",
+				"average": 26
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 13,
+			"con": 14,
+			"int": 10,
+			"wis": 12,
+			"cha": 12,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"Common"
+			],
+			"cr": "1/2",
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"S"
+			],
+			"hasFluff": true,
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Philipp has advantage on saving throws against being {@condition frightened}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Accuse the players.",
+					"{@bold {@italic Trait.}} I uphold my country and serve as best as possible. (Virtue)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Strict (I do not know that.)",
+					"{@bold {@italic Posture.}} Upstraight.",
+					"{@bold {@italic Pause.}} Scratching my beard.",
+					"{@bold {@italic Pfidget.}} Nothing.",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			}
+		}
+	]
+}

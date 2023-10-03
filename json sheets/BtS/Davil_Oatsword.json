@@ -1,0 +1,111 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998204,
+		"dateLastModified": 1688998204
+	},
+	"monster": [
+		{
+			"name": "Davil Oatsword",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item breastplate|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 11,
+			"cha": 11,
+			"passive": 10,
+			"cr": "1/4",
+			"shortName": "Davil",
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"skill": {
+				"intimidation": "+2"
+			},
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) slashing damage, or 6 ({@damage 1d10 + 1}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"group": [
+				"Teziir"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Run the Docks Quarter of Teziir",
+					"{@bold {@italic Trait.}} I want my city to be free from crime, and I'm willing to put my life on the line for it. (Hope)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Busy (Sorry, but I don't have time for this.)",
+					"{@bold {@italic Posture.}} Upstraight.",
+					"{@bold {@italic Pause.}} Rolling eyes.",
+					"{@bold {@italic Pfidget.}} Looking around, checking wether everything's in order.",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true
+		}
+	]
+}

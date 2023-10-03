@@ -1,0 +1,128 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998548,
+		"dateLastModified": 1688998548
+	},
+	"monster": [
+		{
+			"name": "Thaelin Althor",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item ring mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 56",
+				"average": 119
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 18,
+			"int": 10,
+			"wis": 14,
+			"cha": 13,
+			"passive": 12,
+			"cr": "5",
+			"shortName": "Thaelin",
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"str": "+7",
+				"con": "+7"
+			},
+			"skill": {
+				"intimidation": "+4",
+				"athletics": "+7"
+			},
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Thaelin has advantage on saving throws against being {@condition frightened}."
+					]
+				}
+			],
+			"isNamedCreature": true,
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Thaelin makes three melee attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Thaelin adds 3 to his AC against one melee attack that would hit him. To do so, Thaelin must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Purpose.}} Help the players through their quests.",
+					"{@bold {@italic Trait.}} I am gruff and reserved. (Flaw)",
+					"{@bold {@italic Trait.}} I hope to live a peaceful and reserved life. (Hope)"
+				]
+			},
+			"isNpc": true
+		}
+	]
+}

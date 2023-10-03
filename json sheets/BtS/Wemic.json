@@ -1,0 +1,150 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171950,
+		"dateLastModified": 1696171950
+	},
+	"monster": [
+		{
+			"name": "Wemic",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d10 + 20",
+				"average": 75
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 15,
+			"int": 10,
+			"wis": 12,
+			"cha": 9,
+			"passive": 13,
+			"cr": "3",
+			"languages": [
+				"Common",
+				"Wemic"
+			],
+			"languageTags": [
+				"C"
+			],
+			"skill": {
+				"athletics": "+6",
+				"perception": "+3",
+				"survival": "+3"
+			},
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The wemic has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries": [
+						"If the wemic moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the wemic can make one claw attack against it as a bonus action."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Pounce"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The wemic makes three melee attacks: one with its spear and two with its claws."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage, or 13 ({@damage 2d8 + 4}) piercing damage if used with both hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"environment": [
+				"grassland"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Leonine creatures with the upper body of a humanoid and the lower body of a lion, wemics are enemies to the goblins and orcs of the Goblin Marches. They live in a nomadic society with a material culture that is far more primitive than Cormyrean civilization. Wemics are not unintelligent, however, and are expert craftsmen in the use of the materials available within the Marches and readily adapt to the steel weapons and other technology of other races.",
+									"Larger and stronger than humans, wemic are exceptionally athletic and capable of making great running leaps. Wemic have sharp eyesight and exceptional hearing, making them excellent trackers and hunters.",
+									"They are nomadic, rarely staying in one place for long so as to avoid conflict with larger goblin warbands, and are constantly on the hunt. In a typical tribe, females outnumber the males by three-to one. Females typically did the hunting and scouting, while males tended to cubs and defended their territory. Cubs stay with the pride until their fifth year, when they would begin hunting with the women of the pride. Once they brought back their first kill, the wemic would be considered an adult and would be expected to adhere to their traditional role. However, many younger wemic leave their pride after making their first kill to serve as mercenaries or guides, allowing them to acquire finely crafted weapons and shields so that they may return to the Marches and start a pride of their own.",
+									"Despite being primarily meat-eaters, wemics stew roots, wild berries, and edible grasses with their kills to help supplement their diets. In times of great upheaval, wemic prides gather together and form a single nation, and a single high chief is selected from among the chiefs of each tribe. Such a gathering occurs only in the most dire of circumstances, such as the formation of a united goblinoid army."
+								]
+							}
+						]
+					}
+				]
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			]
+		}
+	]
+}

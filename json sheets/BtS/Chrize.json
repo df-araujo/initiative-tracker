@@ -1,0 +1,146 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998193,
+		"dateLastModified": 1688998193
+	},
+	"monster": [
+		{
+			"name": "Chrize",
+			"size": [
+				"S"
+			],
+			"type": "aberration",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d6 + 12",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 35
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 14,
+			"int": 9,
+			"wis": 8,
+			"cha": 8,
+			"passive": 9,
+			"cr": "1",
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} To oppose the players and serve as an obstacle.",
+					"{@bold {@italic Trait.}} I am so rude and untalkative that I sometimes resemble an animal. (Flaw)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Rude (I don't know, it's not my problem)",
+					"{@bold {@italic Posture.}} Bent forward.",
+					"{@bold {@italic Pause.}} Scratching its head.",
+					"{@bold {@italic Pfidget.}} Growling and snarling.",
+					"== Night Parade Generator ==",
+					"{@bold {@italic Size.}} Small",
+					"{@bold {@italic Movement.}} Walks",
+					"{@bold {@italic Skin Texture.}} Tough flesh",
+					"{@bold {@italic Attacks.}} 2",
+					"{@bold {@italic Source of Attacks.}} Mouth (changed from Tentacle)",
+					"{@bold {@italic Primary Color.}} Orange",
+					"{@bold {@italic Shapeshifter?}} Shapeshifter",
+					"{@bold {@italic Saving Throws.}} Rogue",
+					"{@bold {@italic Magic Resistance.}} Nil",
+					"{@bold {@italic Extra Abilities.}} -"
+				]
+			},
+			"isNpc": true,
+			"group": [
+				"Night Parade",
+				"Vragmun's Cell"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"acrobatics": "+4",
+				"stealth": "+4"
+			},
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Chrize can use its action to polymorph into a Small humanoid, a beast form that resembles a bat (speed 10 feet fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"traitTags": [
+				"Shapechanger"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Chrize makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) slashing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			]
+		}
+	]
+}

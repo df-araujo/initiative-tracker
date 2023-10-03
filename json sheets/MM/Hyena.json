@@ -1,0 +1,84 @@
+{
+	"name": "Hyena",
+	"source": "BeforetheStorm",
+	"page": 331,
+	"basicRules": true,
+	"size": [
+		"M"
+	],
+	"type": "beast",
+	"alignment": [
+		"U"
+	],
+	"ac": [
+		11
+	],
+	"hp": {
+		"average": 5,
+		"formula": "1d8 + 1"
+	},
+	"speed": {
+		"walk": 50
+	},
+	"str": 11,
+	"dex": 13,
+	"con": 12,
+	"int": 2,
+	"wis": 12,
+	"cha": 5,
+	"skill": {
+		"perception": "+3"
+	},
+	"passive": 13,
+	"cr": "0",
+	"trait": [
+		{
+			"name": "Pack Tactics",
+			"entries": [
+				"The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+			]
+		}
+	],
+	"environment": [
+		"desert",
+		"forest",
+		"grassland",
+		"hill"
+	],
+	"soundClip": {
+		"type": "external",
+		"url": "http://localhost:5000/audio/bestiary/hyena.mp3"
+	},
+	"traitTags": [
+		"Pack Tactics"
+	],
+	"damageTags": [
+		"P"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"hasFluffImages": true,
+	"tokenUrl": "http://localhost:5000/img/MM/Hyena.png",
+	"fluff": {
+		"name": "Hyena",
+		"source": "MM",
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "bestiary/MM/Hyena.jpg"
+				}
+			}
+		]
+	}
+}

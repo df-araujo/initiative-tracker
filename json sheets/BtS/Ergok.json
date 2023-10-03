@@ -1,0 +1,168 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998237,
+		"dateLastModified": 1688998237
+	},
+	"monster": [
+		{
+			"name": "Ergok",
+			"size": [
+				"L"
+			],
+			"type": "aberration",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d10 + 36",
+				"average": 85
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 60,
+				"canHover": false
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 18,
+			"int": 14,
+			"wis": 14,
+			"cha": 15,
+			"passive": 12,
+			"cr": "6",
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Size.}} Large",
+					"{@bold {@italic Movement.}} Flies",
+					"{@bold {@italic Skin Texture.}} Metallic",
+					"{@bold {@italic Attacks.}} 2",
+					"{@bold {@italic Source of Attacks.}} Hands/claws",
+					"{@bold {@italic Primary Color.}} Green",
+					"{@bold {@italic Shapeshifter?}} Yes",
+					"{@bold {@italic Saving Throws.}} Wizard",
+					"{@bold {@italic Magic Resistance.}} Nil",
+					"{@bold {@italic Extra Abilities.}} Shoots firebolts, +1d4 lightning damage on hit and immune to lightning damage, spider climb, wolf head and after tasting blood, can track down to up to 500 miles"
+				]
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"save": {
+				"wis": "+5"
+			},
+			"immune": [
+				"lightning"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Ergok makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage, plus 2 ({@damage 1d4}) lightning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"L",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"trait": [
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"Ergok can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Blood Tracker",
+					"entries": [
+						"Ergok knows the direction and distance to any creature whose blood it has tasted as long as the two of them are on the same plane of existence."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Ergok can use its action to polymorph into a Medium or Large humanoid, or back into its true form. Without wings, Ergok loses its flying speed. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				}
+			],
+			"traitTags": [
+				"Shapechanger",
+				"Spider Climb"
+			],
+			"isNamedCreature": true,
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Ergok's innate spellcasting ability is Charisma (spell attack {@hit 5}). Ergok can innately cast the following spell, requiring no material components:"
+					],
+					"will": [
+						"{@spell fire bolt}"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"languages": [
+				"Common",
+				"Deep Speech"
+			],
+			"languageTags": [
+				"C",
+				"DS"
+			],
+			"group": [
+				"Night Parade",
+				"Ergok's Cell"
+			],
+			"isNpc": true
+		}
+	]
+}

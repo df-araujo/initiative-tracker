@@ -1,0 +1,230 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171930,
+		"dateLastModified": 1696171930
+	},
+	"monster": [
+		{
+			"name": "War Wizard Glathra Barcantle",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				},
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "16d8 + 32",
+				"average": 104
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 20,
+			"wis": 14,
+			"cha": 11,
+			"passive": 16,
+			"cr": "12",
+			"shortName": "Glathra",
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"Elvish",
+				"Gnomish"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"E",
+				"G"
+			],
+			"skill": {
+				"arcana": "+9",
+				"investigation": "+9",
+				"perception": "+6"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Glathra is a 16th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 15}, {@hit 7} to hit with spell attacks). Glathra has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell blade ward}",
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell prestidigitation}",
+								"{@spell true strike}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell chromatic orb}",
+								"{@spell detect magic}",
+								"{@spell mage armor}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell knock}",
+								"{@spell web}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell sleet storm}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell fire shield}",
+								"{@spell locate creature}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell wall of force}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell guards and wards}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell teleport}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell antimagic field}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"F",
+				"I",
+				"L",
+				"O",
+				"T"
+			],
+			"damageTags": [
+				"P"
+			],
+			"isNpc": true,
+			"isNamedCreature": true,
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} To pose as an obstacle to the players.",
+					"{@bold {@italic Trait.}} I am imperious and rude in the fulfilment of my duties. (Flaw)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Insquisitive (You tell me: what should that be?)",
+					"{@bold {@italic Posture.}} Uptight with hands backwards.",
+					"{@bold {@italic Pause.}} Rolling her eyes around.",
+					"{@bold {@italic Pfidget.}} Stomping her feet on the ground."
+				]
+			},
+			"group": [
+				"War Wizards"
+			],
+			"save": {
+				"int": "+9",
+				"con": "+6"
+			},
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"trait": [
+				{
+					"name": "War Magic",
+					"entries": [
+						"When Glathra uses her action to cast a cantrip or 1st-level spell, she can make a melee weapon attack as a bonus action."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Arcane Deflection",
+					"entries": [
+						"When Glathra is hit by an attack or fails a saving throw, she may use her reaction to gain a +2 bonus to her AC against that attack or a +4 bonus to that saving throw."
+					]
+				}
+			]
+		}
+	]
+}

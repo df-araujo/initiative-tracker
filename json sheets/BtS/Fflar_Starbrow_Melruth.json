@@ -1,0 +1,157 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998241,
+		"dateLastModified": 1688998241
+	},
+	"monster": [
+		{
+			"name": "Fflar Starbrow Melruth",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 34",
+				"average": 110
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 18,
+			"con": 15,
+			"int": 14,
+			"wis": 15,
+			"cha": 16,
+			"passive": 16,
+			"cr": "9",
+			"shortName": "Fflar",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Celestial",
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"languageTags": [
+				"CE",
+				"C",
+				"E",
+				"S"
+			],
+			"save": {
+				"str": "+8",
+				"con": "+6",
+				"wis": "+6",
+				"cha": "+7"
+			},
+			"skill": {
+				"athletics": "+8",
+				"history": "+10",
+				"intimidation": "+11",
+				"perception": "+6",
+				"survival": "+6"
+			},
+			"isNamedCreature": true,
+			"isNpc": true,
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Fflar has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				},
+				{
+					"name": "Brave",
+					"entries": [
+						"Fflar has advantage on saving throws against being {@condition frightened}."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"spellcasting": [
+				{
+					"name": "Sword Spellcasting",
+					"headerEntries": [
+						"While attuned to Keryvian and holding it, Fflar can cast the following spells:"
+					],
+					"will": [
+						"{@spell alarm} (audible alarm only)",
+						"{@spell feather fall}",
+						"{@spell jump}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Fflar makes four melee attacks."
+					]
+				},
+				{
+					"name": "Keryvian",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) slashing damage, or 12 ({@damage 1d10 + 7}) slashing damage if used with both hands, plus 7 ({@damage 2d6}) radiant damage if the target is a fiend or undead."
+					]
+				}
+			],
+			"damageTags": [
+				"R",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			]
+		}
+	]
+}

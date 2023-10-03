@@ -1,0 +1,159 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171463,
+		"dateLastModified": 1696171463
+	},
+	"monster": [
+		{
+			"name": "Battlemaster Pierrick Cormaeril",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 40",
+				"average": 85
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 13,
+			"con": 18,
+			"int": 12,
+			"wis": 14,
+			"cha": 15,
+			"passive": 15,
+			"cr": "7",
+			"shortName": "Pierrick",
+			"languages": [
+				"Common",
+				"Giant",
+				"Orc"
+			],
+			"languageTags": [
+				"C",
+				"GI",
+				"O"
+			],
+			"save": {
+				"str": "+8",
+				"con": "+7"
+			},
+			"skill": {
+				"survival": "+5",
+				"athletics": "+8",
+				"history": "+4",
+				"perception": "+5"
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Pierrick has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Second Wind (Recharges after a Short or Long Rest)",
+					"entries": [
+						"As a bonus action, Pierrick can regain 20 hit points."
+					]
+				},
+				{
+					"name": "Indomitable (2/Day)",
+					"entries": [
+						"Pierrick rerolls a failed saving throw."
+					]
+				},
+				{
+					"name": "Combat Superiority",
+					"entries": [
+						"When the Pierrick hits with a weapon attack, he can choose one of the following effects to add to the attack:",
+						"{@italic Disarm.} The target must succeed on a {@dc 16} Strength saving throw or drop one object it is holding (Pierrick's choice).",
+						"{@italic Push.} The target must succeed on a {@dc 16} Strength saving throw or be pushed 15 feet away from Pierrick.",
+						"{@italic Trip.} The target must succeed on a {@dc 16} Dexterity saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Pierrick makes three melee attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Serve as a quest objective.",
+					"{@bold {@italic Trait.}} I am honorable and respectful to all, especially other fighters. (Virtue)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Honorable (I apologize, for I don't know this.)",
+					"{@bold {@italic Posture.}} Upstraight with arms held back.",
+					"{@bold {@italic Pause.}} Scratching my beard.",
+					"{@bold {@italic Pfidget.}} Gesturing firmly with my hand."
+				]
+			},
+			"group": [
+				"Cormyrean Nobility",
+				"House Cormaeril",
+				"Purple Dragons"
+			]
+		}
+	]
+}

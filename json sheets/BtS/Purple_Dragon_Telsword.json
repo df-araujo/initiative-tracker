@@ -1,0 +1,135 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998306,
+		"dateLastModified": 1688998306
+	},
+	"monster": [
+		{
+			"name": "Purple Dragon Telsword",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 15,
+			"int": 10,
+			"wis": 14,
+			"cha": 13,
+			"passive": 14,
+			"cr": "2",
+			"shortName": "Purple Dragon",
+			"languages": [
+				"Common and one other language"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"skill": {
+				"perception": "+4",
+				"athletics": "+5"
+			},
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"trait": [
+				{
+					"name": "Shield Wall",
+					"entries": [
+						"The Purple Dragon adds 2 to its AC if at least one of their allies is within 5 feet and the ally is wielding a shield and isn’t {@condition incapacitated}."
+					]
+				}
+			],
+			"group": [
+				"Purple Dragons"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The telsword makes two melee attacks with its longsword. "
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit +4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"urban"
+			],
+			"reaction": [
+				{
+					"name": "Bodyguard",
+					"entries": [
+						"If a creature within 5 feet of the Purple Dragon is hit by an attack roll, the Purple Dragon may use its reaction to force the attacking creature to reroll their attack, potentially causing it to miss. To use this ability, the Purple Dragon must be able to see both the creature and its attacker."
+					]
+				}
+			]
+		}
+	]
+}

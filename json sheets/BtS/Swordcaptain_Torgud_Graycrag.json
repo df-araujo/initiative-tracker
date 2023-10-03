@@ -1,0 +1,143 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998541,
+		"dateLastModified": 1688998541
+	},
+	"monster": [
+		{
+			"name": "Swordcaptain Torgud Graycrag",
+			"source": "BeforetheStorm",
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 14,
+			"cha": 13,
+			"skill": {
+				"perception": "+4",
+				"athletics": "+5"
+			},
+			"passive": 14,
+			"cr": "2",
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"hasFluff": true,
+			"shortName": "Torgud",
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Torgud makes two melee attacks with his longsword."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit +4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Give the players orders and quests.",
+					"{@bold {@italic Trait.}} I assume everyone will betray me eventually. (Flaw)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} ",
+					"{@bold {@italic Posture.}} ",
+					"{@bold {@italic Pause.}} ",
+					"{@bold {@italic Pfidget.}} ",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"reaction": [
+				{
+					"name": "Bodyguard",
+					"entries": [
+						"If a creature within 5 feet of Torgud is hit by an attack roll, he may use his reaction to force the attacking creature to reroll their attack, potentially causing it to miss. To use this ability, Torgud must be able to see both the creature and its attacker."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Shield Wall",
+					"entries": [
+						"Torgud adds 2 to his AC if at least one of his allies is within 5 feet and the ally is wielding a shield and isn’t {@condition incapacitated}."
+					]
+				}
+			]
+		}
+	]
+}

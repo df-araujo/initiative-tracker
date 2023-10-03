@@ -1,0 +1,232 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1694291173,
+		"dateLastModified": 1694291173
+	},
+	"monster": [
+		{
+			"name": "Joric Longbrook",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"halfling"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d6 + 4",
+				"average": 11
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 9,
+			"dex": 15,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 12,
+			"passive": 12,
+			"cr": "1/8",
+			"shortName": "Joric",
+			"languages": [
+				"Common",
+				"Halfling"
+			],
+			"languageTags": [
+				"C",
+				"H"
+			],
+			"skill": {
+				"athletics": "+1",
+				"survival": "+2",
+				"perception": "+2"
+			},
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A stout halfling friend of Orlan that serves as his herald.",
+									{
+										"name": "Two-Note NPC",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Purpose",
+												"type": "entries",
+												"entries": [
+													"Enhance the world."
+												]
+											},
+											{
+												"name": "Trait",
+												"type": "entries",
+												"entries": [
+													"Despite being a good traveller, I do not feel well far from home. (Suffering)"
+												]
+											}
+										]
+									},
+									{
+										"name": "Four P’s of Playacting",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Personality",
+												"type": "entries",
+												"entries": [
+													"A version of 'I don't know'. (Type of personality)"
+												]
+											},
+											{
+												"name": "Posture",
+												"type": "entries",
+												"entries": [
+													"Posture."
+												]
+											},
+											{
+												"name": "Pause",
+												"type": "entries",
+												"entries": [
+													"Pause phrase or gesture."
+												]
+											},
+											{
+												"name": "Pfidget",
+												"type": "entries",
+												"entries": [
+													"Repeating gesture."
+												]
+											}
+										]
+									},
+									{
+										"name": "Social Interaction",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Objections",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Objection 1",
+														"type": "entries",
+														"entries": [
+															"Objection 1 explanation. (score)"
+														]
+													}
+												]
+											},
+											{
+												"name": "Incentives",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Incentive 1",
+														"type": "entries",
+														"entries": [
+															"Incentive 1 explanation. (score)"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Joric has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Lucky",
+					"entries": [
+						"When Joric rolls a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll."
+					]
+				},
+				{
+					"name": "Halfling Nimbleness",
+					"entries": [
+						"Joric can move through a space of a Medium or larger creature"
+					]
+				},
+				{
+					"name": "Stout Resilience",
+					"entries": [
+						"Joric has advantage on saving throws against poison, and has resistance against poison damage."
+					]
+				}
+			],
+			"resist": [
+				"poison"
+			]
+		}
+	]
+}

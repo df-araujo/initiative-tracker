@@ -1,0 +1,135 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1689515990,
+		"dateLastModified": 1689515990
+	},
+	"monster": [
+		{
+			"name": "Grath Halraggson",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 44",
+				"average": 93
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 11,
+			"con": 18,
+			"int": 10,
+			"wis": 10,
+			"cha": 13,
+			"passive": 10,
+			"cr": "5",
+			"shortName": "Grath",
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"skill": {
+				"athletics": "+8",
+				"survival": "+3",
+				"stealth": "+3"
+			},
+			"trait": [
+				{
+					"name": "Menacing Blows (1/Turn)",
+					"entries": [
+						"Grath deals an extra 6 ({@damage 1d12}) damage when he hits a target with a weapon attack. If the target is a creature, it must succeed on a {@dc 13} Wisdom saving throw or be {@condition frightened} until the start of Grath's next turn."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, Grath can gain advantage on all melee weapon attack rolls he makes during that turn, but attack rolls against him have advantage until the start of his next turn."
+					]
+				}
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"isNamedCreature": true,
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Grath makes three melee attacks or two ranged attacks."
+					]
+				},
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d12 + 5}) slashing damage, plus 6 ({@damage 1d12}) slashing damage if Grath uses Menacing Blows."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit +3} to hit, range 150/600 ft., one target. {@h}4 ({@damage 1d8}) piercing damage, plus 6 ({@damage 1d12}) piercing damage if Grath uses Menacing Blows."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"isNpc": true,
+			"actionTags": [
+				"Multiattack"
+			],
+			"save": {
+				"str": "+8",
+				"con": "+7",
+				"dex": "+3"
+			}
+		}
+	]
+}

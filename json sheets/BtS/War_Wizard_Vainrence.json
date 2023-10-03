@@ -1,0 +1,234 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171943,
+		"dateLastModified": 1696171943
+	},
+	"monster": [
+		{
+			"name": "War Wizard Vainrence",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 34",
+				"average": 110
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 15,
+			"int": 20,
+			"wis": 14,
+			"cha": 15,
+			"passive": 16,
+			"cr": "9",
+			"languages": [
+				"Common",
+				"Draconic",
+				"Dwarvish",
+				"Elvish",
+				"Primordial"
+			],
+			"languageTags": [
+				"C",
+				"DR",
+				"D",
+				"E",
+				"P"
+			],
+			"save": {
+				"int": "+9",
+				"con": "+6"
+			},
+			"skill": {
+				"arcana": "+9",
+				"history": "+9",
+				"investigation": "+9",
+				"perception": "+6"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Vainrence is a 17th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). He has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell blade ward}",
+								"{@spell fire bolt}",
+								"{@spell message}",
+								"{@spell sword burst|TCE}",
+								"{@spell true strike}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell alarm}",
+								"{@spell chromatic orb}",
+								"{@spell mage armor}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blur}",
+								"{@spell flaming sphere}",
+								"{@spell shatter}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fireball}",
+								"{@spell slow}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell arcane eye}",
+								"{@spell stoneskin}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell telekinesis}",
+								"{@spell wall of force}"
+							],
+							"slots": 2
+						},
+						"6": {
+							"spells": [
+								"{@spell globe of invulnerability}",
+								"{@spell Otiluke's freezing sphere}"
+							],
+							"slots": 1
+						},
+						"7": {
+							"spells": [
+								"{@spell Mordenkainen's sword}"
+							],
+							"slots": 1
+						},
+						"8": {
+							"spells": [
+								"{@spell power word stun}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell meteor swarm}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"F",
+				"I",
+				"L",
+				"O",
+				"T"
+			],
+			"damageTags": [
+				"S"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Give the players information.",
+					"{@bold {@italic Trait.}} I am direct and honest in the best way I can. (Virtue)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Polite (Sorry friend, I don't know.)",
+					"{@bold {@italic Posture.}} Leaning against the seat.",
+					"{@bold {@italic Pause.}} \"Hmmm what do I know about that...?\"",
+					"{@bold {@italic Pfidget.}} Leaf through the pages of a book."
+				]
+			},
+			"trait": [
+				{
+					"name": "War Magic",
+					"entries": [
+						"When the Vainrence uses his action to cast a cantrip or 1st-level spell, he can make a melee weapon attack as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"reaction": [
+				{
+					"name": "Arcane Deflection",
+					"entries": [
+						"When Vainrence is hit by an attack or fails a saving throw, he may use itshis reaction to gain a +2 bonus to his AC against that attack or a +4 bonus to that saving throw."
+					]
+				}
+			],
+			"shortName": "Vainrence"
+		}
+	]
+}

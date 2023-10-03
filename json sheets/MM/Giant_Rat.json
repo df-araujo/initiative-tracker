@@ -1,0 +1,110 @@
+{
+	"name": "Giant Rat",
+	"source": "BeforetheStorm",
+	"page": 327,
+	"basicRules": true,
+	"size": [
+		"S"
+	],
+	"type": "beast",
+	"alignment": [
+		"U"
+	],
+	"ac": [
+		12
+	],
+	"hp": {
+		"average": 7,
+		"formula": "2d6"
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 7,
+	"dex": 15,
+	"con": 11,
+	"int": 2,
+	"wis": 10,
+	"cha": 4,
+	"senses": [
+		"darkvision 60 ft."
+	],
+	"passive": 10,
+	"cr": "1/8",
+	"trait": [
+		{
+			"name": "Keen Smell",
+			"entries": [
+				"The rat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+			]
+		},
+		{
+			"name": "Pack Tactics",
+			"entries": [
+				"The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Bite",
+			"entries": [
+				"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+			]
+		}
+	],
+	"variant": [
+		{
+			"type": "variant",
+			"name": "Diseased Giant Rats",
+			"entries": [
+				"Some giant rats carry vile diseases that they spread with their bites.",
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 10} Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 ({@dice 1d6}) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
+					]
+				}
+			]
+		}
+	],
+	"environment": [
+		"forest",
+		"swamp",
+		"underdark",
+		"urban"
+	],
+	"soundClip": {
+		"type": "external",
+		"url": "https://5e.tools/audio/bestiary/giant-rat.mp3"
+	},
+	"traitTags": [
+		"Keen Senses",
+		"Pack Tactics"
+	],
+	"senseTags": [
+		"D"
+	],
+	"damageTags": [
+		"P"
+	],
+	"miscTags": [
+		"MW"
+	],
+	"hasFluffImages": true,
+	"tokenUrl": "https://5e.tools/img/MM/Giant Rat.png",
+	"fluff": {
+		"name": "Giant Rat",
+		"source": "MM",
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "internal",
+					"path": "bestiary/MM/Giant Rat.webp"
+				}
+			}
+		]
+	}
+}

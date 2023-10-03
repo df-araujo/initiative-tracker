@@ -1,0 +1,133 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998552,
+		"dateLastModified": 1688998552
+	},
+	"monster": [
+		{
+			"name": "Ullvor Mharivven",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item padded armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 14,
+			"int": 13,
+			"wis": 10,
+			"cha": 16,
+			"passive": 12,
+			"cr": "1",
+			"shortName": "Ullvor",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Thieves' cant"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"TC"
+			],
+			"save": {
+				"dex": "+4",
+				"int": "+3"
+			},
+			"skill": {
+				"performance": "+5",
+				"persuasion": "+5",
+				"sleight of hand": "+4",
+				"deception": "+7",
+				"perception": "+2"
+			},
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"trait": [
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Ullvor deals an extra 7 ({@dice 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Ullvor that isn't {@condition incapacitated} and Ullvor doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of his turns, Ullvor can use a bonus action to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+					]
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Give players information.",
+					"{@bold {@italic Trait.}} I am dishonest and lie compulsively.",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Suspicious (I don't know. Who are you anyways.)",
+					"{@bold {@italic Posture.}} Upstraight with hands connected.",
+					"{@bold {@italic Pause.}} Giggling maliciously.",
+					"{@bold {@italic Pfidget.}} Steepling my fingers."
+				]
+			}
+		}
+	]
+}

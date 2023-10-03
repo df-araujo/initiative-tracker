@@ -1,0 +1,210 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171759,
+		"dateLastModified": 1696171759
+	},
+	"monster": [
+		{
+			"name": "Orister Quickcobble",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"halfling"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 7",
+				"average": 38
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 17,
+			"cha": 15,
+			"passive": 10,
+			"cr": "5",
+			"shortName": "Orister",
+			"languages": [
+				"Common",
+				"Gnomish",
+				"Halfling"
+			],
+			"languageTags": [
+				"C",
+				"G",
+				"H"
+			],
+			"save": {
+				"wis": "+6",
+				"cha": "+5"
+			},
+			"skill": {
+				"religion": "+3",
+				"insight": "+6",
+				"stealth": "+8"
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Orister has advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"name": "Halfling Nimbleless",
+					"entries": [
+						"Orister can move through a space of a Medium or larger creature."
+					]
+				},
+				{
+					"name": "Lucky",
+					"entries": [
+						"When Orister rolls a 1 on an attack roll, ability check, or saving throw, he can reroll the die and must use the new roll."
+					]
+				},
+				{
+					"name": "Naturally Stealthy",
+					"entries": [
+						"Orister can attempt to hide when he is obscured by a Medium or bigger creature."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) bludgeoning damage, or 3 ({@damage 1d8 - 1}) bludgeoning damage if used with both hands."
+					]
+				},
+				{
+					"name": "Invoke Duplicity (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Orister creates an illusory duplicate of himself that lasts for 1 minute, or until he loses {@status concentration} (as if he was {@status concentration||concentrating} on a spell). The illusion appears in an unoccupied space within 30 feet of Orister. As a bonus action, Orister can move the illusion up to 30 feet to a space he can see, but it must remain within 120 feet of him.",
+						"For the duration, Orister can cast spells as though he was in the illusion's space, and when both Orister and his illusion are within 5 feet of a creature, he has advantage on attack rolls against that creature."
+					]
+				},
+				{
+					"name": "Cloak of Shadows (Recharges after a Short or Long Rest)",
+					"entries": [
+						"Orister becomes {@condition invisible} until the end of his next turn. He become visible if he attacks or casts a spell."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Orister is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC {@dc 14}, {@hit 6} to hit with spell attacks). Orister has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell resistance}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell bless}",
+								"{@spell charm person}",
+								"{@spell command}",
+								"{@spell disguise self}",
+								"{@spell guiding bolt}",
+								"{@spell sanctuary}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}",
+								"{@spell mirror image}",
+								"{@spell pass without trace}",
+								"{@spell silence}",
+								"{@spell spiritual weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell blink}",
+								"{@spell dispel magic}",
+								"{@spell dispel magic}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell dimension door}",
+								"{@spell guardian of faith}",
+								"{@spell polymorph}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"R"
+			],
+			"group": [
+				"Church of Tymora",
+				"Tourney of Champions",
+				"Mage Duel"
+			]
+		}
+	]
+}

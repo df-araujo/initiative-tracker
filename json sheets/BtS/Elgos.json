@@ -1,0 +1,133 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998228,
+		"dateLastModified": 1688998228
+	},
+	"monster": [
+		{
+			"name": "Elgos",
+			"size": [
+				"M"
+			],
+			"type": "aberration",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"formula": "3d8 + 9",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 14,
+			"con": 16,
+			"int": 8,
+			"wis": 10,
+			"cha": 6,
+			"passive": 10,
+			"cr": "1",
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Size.}} Medium",
+					"{@bold {@italic Movement.}} Slithers like a snake",
+					"{@bold {@italic Skin Texture.}} Tough flesh",
+					"{@bold {@italic Attacks.}} 2",
+					"{@bold {@italic Source of Attacks.}} Tentacles",
+					"{@bold {@italic Primary Color.}} Pink",
+					"{@bold {@italic Shapeshifter?}} Yes",
+					"{@bold {@italic Saving Throws.}} Priest",
+					"{@bold {@italic Magic Resistance.}} Nil",
+					"{@bold {@italic Extra Abilities.}} Body emits acid and +1d4 acid damage"
+				]
+			},
+			"languages": [
+				"Deep Speech"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Elgos makes two tentacle attacks."
+					]
+				},
+				{
+					"name": "Tentacles",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}7 ({@damage 1d10 + 2}) bludgeoning damage, plus 2 ({@damage 1d4}) acid damage, and the target is {@condition grappled} (escape {@dc 11}). Until this grapple ends, Elgos can't use its tentacles on another target."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Ergok can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+					]
+				},
+				{
+					"name": "Corrosive Form",
+					"entries": [
+						"A creature that touches Elgos or hits it with a melee attack while within 5 feet of it takes 4 ({@dice 1d8}) acid damage. Any nonmagical weapon made of metal or wood that hits Elgos corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits Elgos is destroyed after dealing damage.",
+						"Elgos can eat through 2-inch-thick, nonmagical wood or metal in 1 round."
+					]
+				}
+			],
+			"traitTags": [
+				"Shapechanger"
+			],
+			"group": [
+				"Night Parade",
+				"Ergok's Cell"
+			],
+			"isNamedCreature": true,
+			"isNpc": true
+		}
+	]
+}

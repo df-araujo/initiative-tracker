@@ -1,0 +1,117 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998208,
+		"dateLastModified": 1688998208
+	},
+	"monster": [
+		{
+			"name": "Demetrius",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 2",
+				"average": 11
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 12,
+			"int": 13,
+			"wis": 10,
+			"cha": 9,
+			"passive": 10,
+			"cr": "1/4",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Giant",
+				"Goblin"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"GI",
+				"GO"
+			],
+			"skill": {
+				"history": "+3",
+				"survival": "+2",
+				"investigation": "+3"
+			},
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with both hands to make a melee attack."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Aid the players and bring out their stories.",
+					"{@bold {@italic Trait.}} I am gruff and pessimistic. (Flaw)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} ",
+					"{@bold {@italic Posture.}} ",
+					"{@bold {@italic Pause.}} ",
+					"{@bold {@italic Pfidget.}} ",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"group": [
+				"Blue Dragons"
+			]
+		}
+	]
+}

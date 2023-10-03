@@ -1,0 +1,146 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998318,
+		"dateLastModified": 1688998318
+	},
+	"monster": [
+		{
+			"name": "Scegvi",
+			"size": [
+				"S"
+			],
+			"type": "aberration",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d6",
+				"average": 24
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 25
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 11,
+			"int": 11,
+			"wis": 10,
+			"cha": 8,
+			"passive": 12,
+			"cr": "2",
+			"fluff": {
+				"entries": [
+					"{@bold {@italic Size.}} Small",
+					"{@bold {@italic Movement.}} Walks",
+					"{@bold {@italic Skin Texture.}} Waxy (half damage from weapons)",
+					"{@bold {@italic Attacks.}} 3",
+					"{@bold {@italic Source of Attacks.}} Hands/Claws",
+					"{@bold {@italic Primary Color.}} Green",
+					"{@bold {@italic Shapeshifter?}} Non-shapeshifter",
+					"{@bold {@italic Saving Throws.}} Rogue",
+					"{@bold {@italic Magic Resistance.}} Nil",
+					"{@bold {@italic Extra Abilities.}} Transmutes stone into water by touch (100 square ft.)"
+				]
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Deep Speech"
+			],
+			"languageTags": [
+				"DS"
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"skill": {
+				"stealth": "+5",
+				"perception": "+2"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Scegvi makes three claw attacks."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Transmuting Touch (1/Day)",
+					"entries": [
+						"Scegvi's touch can turn stone into water. When Scegvi touches a body of stone, he can turn up to 100 square foot of the stone into water."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"save": {
+				"dex": "+5"
+			},
+			"isNamedCreature": true,
+			"trait": [
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, Scegvi can take the {@action Hide} action as a bonus action."
+					]
+				}
+			],
+			"group": [
+				"Night Parade",
+				"Vragmun's Cell"
+			],
+			"isNpc": true
+		}
+	]
+}

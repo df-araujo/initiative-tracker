@@ -1,0 +1,147 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998300,
+		"dateLastModified": 1688998300
+	},
+	"monster": [
+		{
+			"name": "Purple Dragon Lionar",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 14",
+				"average": 45
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 15,
+			"int": 10,
+			"wis": 14,
+			"cha": 13,
+			"passive": 14,
+			"cr": "4",
+			"shortName": "Purple Dragon",
+			"languages": [
+				"Common and one other language"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"skill": {
+				"perception": "+4",
+				"athletics": "+5"
+			},
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"trait": [
+				{
+					"name": "Shield Wall",
+					"entries": [
+						"The Purple Dragon adds 2 to its AC if at least one of their allies is within 5 feet and the ally is wielding a shield and isn’t {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Sentinel",
+					"entries": [
+						"When the lionar hits a creature with an opportunity attack, the creature’s speed becomes 0 for the rest of the turn. Creatures provoke attacks of opportunity from the lionar even if they use the {@action Disengage} action before leaving the lionar’s reach. "
+					]
+				}
+			],
+			"group": [
+				"Purple Dragons"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The lionar makes three melee attacks with its longsword. "
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit +4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Leadership (Recharges after a Short or Long Rest)",
+					"entries": [
+						"For 1 minute, the lionar can utter a command or warning whenever a non-hostile creature that it can see within 30 feet of it makes an attack roll or saving throw. The creature can add a {@dice d4} to its roll, provided it can hear and understand the lionar. A creature can benefit from only one Leadership die at a time. This effect ends if the lionar is {@condition incapacitated}."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"urban"
+			],
+			"reaction": [
+				{
+					"name": "Bodyguard",
+					"entries": [
+						"If a creature within 5 feet of the Purple Dragon is hit by an attack roll, the Purple Dragon may use its reaction to force the attacking creature to reroll their attack, potentially causing it to miss. To use this ability, the Purple Dragon must be able to see both the creature and its attacker."
+					]
+				}
+			]
+		}
+	]
+}

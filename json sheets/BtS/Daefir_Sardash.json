@@ -1,0 +1,304 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171532,
+		"dateLastModified": 1696171532
+	},
+	"monster": [
+		{
+			"name": "Daefir Sardash",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "7d8",
+				"average": 31
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 9,
+			"dex": 15,
+			"con": 11,
+			"int": 12,
+			"wis": 13,
+			"cha": 18,
+			"passive": 13,
+			"cr": "3",
+			"shortName": "Daefir",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Primordial",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"P",
+				"S"
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"save": {
+				"wis": "+3",
+				"cha": "+6"
+			},
+			"skill": {
+				"arcana": "+3",
+				"nature": "+3",
+				"deception": "+6",
+				"stealth": "+4",
+				"perception": "+3"
+			},
+			"conditionImmune": [
+				"charmed"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Daefir is a 7th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest. He knows the following warlock spells:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}",
+								"{@spell eldritch blast}",
+								"{@spell mage hand}",
+								"{@spell minor illusion}",
+								"{@spell prestidigitation}",
+								"{@spell vicious mockery}"
+							]
+						},
+						"4": {
+							"spells": [
+								"{@spell blink}",
+								"{@spell charm person}",
+								"{@spell crown of madness}",
+								"{@spell faerie fire}",
+								"{@spell greater invisibility}",
+								"{@spell major image}",
+								"{@spell phantasmal force}",
+								"{@spell sleep}"
+							],
+							"slots": 2,
+							"lower": 1
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				},
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Daefir's innate spellcasting ability is Charisma. He can innately cast the following spells (spell save {@dc 14}), requiring no material components:"
+					],
+					"will": [
+						"{@spell mage armor} (self only)",
+						"{@spell silent image}",
+						"{@spell speak with animals}"
+					],
+					"daily": {
+						"1": [
+							"{@spell polymorph}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CL",
+				"I"
+			],
+			"damageTagsSpell": [
+				"O",
+				"Y"
+			],
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"reaction": [
+				{
+					"name": "Misty Escape (Recharges after a Short or Long Rest)",
+					"entries": [
+						"In response to taking damage, Daefir turns {@condition invisible} and teleports up to 60 feet to an unoccupied space he can see. He remains {@condition invisible} until the start of his next turn or until he attacks, makes a damage roll, or casts a spell."
+					]
+				}
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"group": [
+				"Tourney of Champions",
+				"Mage Duel"
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Daefir has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				},
+				{
+					"name": "Mask of the Wild",
+					"entries": [
+						"Daefir can attempt to {@action hide} even when he is only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A former member of the Eldreth Veluuthra, he is hunted down by his former allies for taking one of their secret artifacts: Dragathil, a Baneblade of Demron.",
+									{
+										"name": "Two-Note NPC",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Purpose",
+												"type": "entries",
+												"entries": [
+													"Give the players quests."
+												]
+											},
+											{
+												"name": "Trait",
+												"type": "entries",
+												"entries": [
+													"My speech is ambiguous and I am secretive in my actions. (Flaw)"
+												]
+											}
+										]
+									},
+									{
+										"name": "Four P’s of Playacting",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Personality",
+												"type": "entries",
+												"entries": [
+													"A version of 'I don't know'. (Type of personality)"
+												]
+											},
+											{
+												"name": "Posture",
+												"type": "entries",
+												"entries": [
+													"Posture."
+												]
+											},
+											{
+												"name": "Pause",
+												"type": "entries",
+												"entries": [
+													"Pause phrase or gesture."
+												]
+											},
+											{
+												"name": "Pfidget",
+												"type": "entries",
+												"entries": [
+													"Repeating gesture."
+												]
+											}
+										]
+									},
+									{
+										"name": "Social Interaction",
+										"type": "entries",
+										"entries": [
+											{
+												"name": "Objections",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Objection 1",
+														"type": "entries",
+														"entries": [
+															"Objection 1 explanation. (score)"
+														]
+													}
+												]
+											},
+											{
+												"name": "Incentives",
+												"type": "entries",
+												"entries": [
+													{
+														"name": "Incentive 1",
+														"type": "entries",
+														"entries": [
+															"Incentive 1 explanation. (score)"
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

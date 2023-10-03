@@ -1,0 +1,110 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998177,
+		"dateLastModified": 1688998177
+	},
+	"monster": [
+		{
+			"name": "Caravan Master Victorinus",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 12,
+			"con": 10,
+			"int": 12,
+			"wis": 10,
+			"cha": 14,
+			"passive": 10,
+			"cr": "0",
+			"shortName": "Victorinus",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Thieves' cant",
+				"Undercommon"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"TC",
+				"U"
+			],
+			"skill": {
+				"deception": "+4",
+				"insight": "+2",
+				"sleight of hand": "+3"
+			},
+			"damageTags": [
+				"P"
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} ",
+					"{@bold {@italic Trait.}} I am thoroughly suspicious and afraid of every semblance of official authority. (Vulnerability)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Suspicious (I don't know. Who are you anyway?)",
+					"{@bold {@italic Posture.}} Slightly bent forward.",
+					"{@bold {@italic Pause.}} Holding hands together and lightly clapping them.",
+					"{@bold {@italic Pfidget.}} Looking around suspiciously.",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true
+		}
+	]
+}

@@ -1,0 +1,144 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998296,
+		"dateLastModified": 1688998296
+	},
+	"monster": [
+		{
+			"name": "Purple Dragon Knight",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 20",
+				"average": 65
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 15,
+			"int": 10,
+			"wis": 14,
+			"cha": 13,
+			"passive": 14,
+			"cr": "3",
+			"shortName": "Purple Dragon",
+			"languages": [
+				"Common and one other language"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"skill": {
+				"perception": "+4",
+				"athletics": "+5",
+				"animal handling": "+4"
+			},
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"group": [
+				"Purple Dragons"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight makes two melee attacks with its longsword. "
+					]
+				},
+				{
+					"name": "Lance",
+					"entries": [
+						"{@atk mw} {@hit +5} to hit (with disadvantage against a target within 5 ft.), reach 10 ft., one target. {@h}9 ({@damage 1d12 + 3}) piercing damage, or 12 ({@damage 1d12 + 6}) piercing damage while mounted."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with both hands."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit +4} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW",
+				"RNG"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"urban"
+			],
+			"trait": [
+				{
+					"name": "Skilled Rider",
+					"entries": [
+						"Attack rolls made against the knight’s mount have disadvantage."
+					]
+				},
+				{
+					"name": "Thundering Charge",
+					"entries": [
+						"If the knight is mounted and moves at least 20 feet straight toward a creature and hits it with a lance attack on the same turn, the creature must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		}
+	]
+}

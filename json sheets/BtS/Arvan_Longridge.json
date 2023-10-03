@@ -1,0 +1,130 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998142,
+		"dateLastModified": 1688998142
+	},
+	"monster": [
+		{
+			"name": "Arvan Longridge",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 6",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 13,
+			"int": 12,
+			"wis": 14,
+			"cha": 10,
+			"passive": 14,
+			"cr": "2",
+			"shortName": "Arvan",
+			"languages": [
+				"Common",
+				"Deep Speech",
+				"Elvish",
+				"Sylvan",
+				"Undercommon"
+			],
+			"languageTags": [
+				"C",
+				"DS",
+				"E",
+				"S",
+				"U"
+			],
+			"skill": {
+				"animal handling": "+4",
+				"investigation": "+3",
+				"perception": "+4",
+				"stealth": "+5",
+				"survival": "+4"
+			},
+			"damageTags": [
+				"P"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Arvan makes two melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit +5} to hit, range 100/400 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Aid the players in their investigation.",
+					"{@bold {@italic Trait.}} I am too straightforward and uncaring with others, even my allies. (Flaw)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Straightfoward (I don't know.)",
+					"{@bold {@italic Posture.}} Wierdly bent forward.",
+					"{@bold {@italic Pause.}} Hitting the side of his head with his index finger.",
+					"{@bold {@italic Pfidget.}} Roll a crossbow bolt on his hand."
+				]
+			},
+			"isNpc": true
+		}
+	]
+}

@@ -1,0 +1,120 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171459,
+		"dateLastModified": 1696171459
+	},
+	"monster": [
+		{
+			"name": "Baerovus Obarskyr",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 20",
+				"average": 65
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 17,
+			"con": 14,
+			"int": 11,
+			"wis": 14,
+			"cha": 9,
+			"passive": 14,
+			"cr": "2",
+			"shortName": "Baerovus",
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"skill": {
+				"animal handling": "+6",
+				"nature": "+2",
+				"history": "+2",
+				"perception": "+4",
+				"survival": "+4"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Baerovus makes two melee attacks or three attacks with his longbow."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW",
+				"RNG"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"isNamedCreature": true,
+			"isNpc": true,
+			"group": [
+				"Cormyrean Nobility",
+				"Royal Family"
+			]
+		}
+	]
+}

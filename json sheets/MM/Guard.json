@@ -1,0 +1,100 @@
+{
+	"name": "Guard",
+	"source": "BeforetheStorm",
+	"page": 347,
+	"basicRules": true,
+	"size": [
+		"M"
+	],
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			"any race"
+		]
+	},
+	"alignment": [
+		"A"
+	],
+	"ac": [
+		{
+			"ac": 16,
+			"from": [
+				"{@item chain shirt|phb}",
+				"{@item shield|phb}"
+			]
+		}
+	],
+	"hp": {
+		"average": 11,
+		"formula": "2d8 + 2"
+	},
+	"speed": {
+		"walk": 30
+	},
+	"str": 13,
+	"dex": 12,
+	"con": 12,
+	"int": 10,
+	"wis": 11,
+	"cha": 10,
+	"skill": {
+		"perception": "+2"
+	},
+	"passive": 12,
+	"languages": [
+		"any one language (usually Common)"
+	],
+	"cr": "1/8",
+	"action": [
+		{
+			"name": "Spear",
+			"entries": [
+				"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, or 5 ({@damage 1d8 + 1}) piercing damage if used with two hands to make a melee attack."
+			]
+		}
+	],
+	"environment": [
+		"coastal",
+		"desert",
+		"forest",
+		"grassland",
+		"hill",
+		"mountain",
+		"urban"
+	],
+	"soundClip": {
+		"type": "external",
+		"url": "https://5e.tools/audio/bestiary/guard.mp3"
+	},
+	"languageTags": [
+		"C",
+		"X"
+	],
+	"damageTags": [
+		"P"
+	],
+	"miscTags": [
+		"MW",
+		"RW",
+		"THW"
+	],
+	"hasFluff": true,
+	"tokenUrl": "https://5e.tools/img/MM/Guard.png",
+	"fluff": {
+		"name": "Guard",
+		"source": "MM",
+		"entries": [
+			{
+				"type": "entries",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles."
+						]
+					}
+				]
+			}
+		]
+	}
+}

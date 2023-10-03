@@ -1,0 +1,175 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998206,
+		"dateLastModified": 1688998206
+	},
+	"monster": [
+		{
+			"name": "Deathshrieker",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "18d8 + 54",
+				"average": 135
+			},
+			"speed": {
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"walk": 0,
+				"canHover": true
+			},
+			"str": 6,
+			"dex": 25,
+			"con": 17,
+			"int": 8,
+			"wis": 14,
+			"cha": 21,
+			"passive": 12,
+			"cr": "13",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"trait": [
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The deathshrieker can move through other creatures and objects as if they were {@quickref difficult terrain||3}. It takes 5 ({@dice 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Silence Vulnerability",
+					"entries": [
+						"The deathshrieker takes 10 ({@damage 3d6}) psychic damage if it enters into or ends its turn within the area of a {@spell silence} spell."
+					]
+				},
+				{
+					"name": "Deathrattle",
+					"entries": [
+						"When a deathshrieker is reduced to 0 hit points, it releases a final, devastating shriek. Each creature within 300 feet of the deathshrieker that can hear it must make a {@dc 18} Wisdom saving throw, taking 33 ({@damage 6d10}) psychic damage on a failed save, or half as much on a successful one."
+					]
+				}
+			],
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"damageTags": [
+				"O",
+				"Y"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The deathshrieker may use Scream of the Dying. It then makes two attacks with its Draining Touch."
+					]
+				},
+				{
+					"name": "Draining Touch",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}29 ({@damage 4d10 + 7}) psychic damage."
+					]
+				},
+				{
+					"name": "Scream of the Dying {@recharge 5}",
+					"entries": [
+						"The deathshrieker emits a soul-numbing scream. Each creature within 30 feet of the deathshrieker that can hear it must make a {@dc 18} Wisdom saving throw. A creature that fails its save takes 44 ({@damage 8d10}) psychic damage and is {@condition stunned} for 1 minute. A creature that succeeds on its save takes half as much damage and isn't {@condition stunned}. A {@condition stunned} creature may repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"fluff": {
+				"entries": [
+					"This horrible apparition floats above the ground, its skeletal face twisted in horrible pain while it screams in a terrifying cacophony that sounds like the last shrieks of the dying.",
+					"The deathshrieker is an undead spirit that embodies the horrible cries and shrieks of the dying as they utter their last gasps of life. It roams lonely and forgotten battlefields, charnel houses, or sites of terrible plagues, filling the air with its mournful and soul-sapping screams. It relives the final moments of those who have died from slow, agonizing deaths due to violence, disease, or some other tragedy. Typically, the larger the death and despair of an area, the larger the deathshrieker, although relatively small areas that hosted truly despicable acts of violence can bring one into being as well.",
+					"Most deathshriekers haunt a single location, although some wander aimlessly on lonely and desolate roads or other forbidding terrain. They are angry, vengeful spirits that endlessly babble the final words of those who have died. They seek to kill living beings just to hear their final scream. The haunt of a deathshrieker is noted for odd, disturbing noises and the occasional whisper of the dead crying out in pain. These noises can persist for years even if the deathshrieker is destroyed.",
+					"A deathshrieker is 5 to 6 feet tall and weightless.",
+					"Deathshriekers speak Common and one other language, often the racial language of those who died in the most numbers within the area. They rarely speak with intent but instead replay the last words of a hundred souls that have perished, which blur together in a terrifying din."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.obsidianportal.com/assets/83017/Deathshrieker.jpg"
+						}
+					}
+				]
+			},
+			"environment": [
+				"underdark",
+				"urban"
+			],
+			"shortName": "Deathshrieker"
+		}
+	]
+}

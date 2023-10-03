@@ -1,0 +1,111 @@
+{
+	"siteVersion": "1.182.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1696171594,
+		"dateLastModified": 1696171594
+	},
+	"monster": [
+		{
+			"name": "Erzoured Obarskyr",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item padded armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 13,
+			"con": 13,
+			"int": 12,
+			"wis": 12,
+			"cha": 13,
+			"passive": 11,
+			"cr": "1",
+			"languages": [
+				"Common",
+				"Goblin",
+				"Undercommon"
+			],
+			"languageTags": [
+				"C",
+				"GO",
+				"U"
+			],
+			"skill": {
+				"athletics": "+4",
+				"investigation": "+3"
+			},
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Quest giver NPC.",
+					"{@bold {@italic Trait.}} I am covetous and always try to take advantage of the situation. (Flaw)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} Refined (This is beyond my knowledge.)",
+					"{@bold {@italic Posture.}} Upstraight with one arm behind my back.",
+					"{@bold {@italic Pause.}} Giggling slightly",
+					"{@bold {@italic Pfidget.}} Caressing my chin."
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"group": [
+				"Cormyrean Nobility",
+				"Royal Family",
+				"Purple Dragons"
+			]
+		}
+	]
+}

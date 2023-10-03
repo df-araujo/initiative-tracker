@@ -1,0 +1,127 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998221,
+		"dateLastModified": 1688998221
+	},
+	"monster": [
+		{
+			"name": "Durant",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"source": "BeforetheStorm",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 4",
+				"average": 13
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 14,
+			"int": 11,
+			"wis": 12,
+			"cha": 10,
+			"passive": 13,
+			"cr": "1/4",
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"skill": {
+				"athletics": "+4",
+				"survival": "+3",
+				"perception": "+3"
+			},
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"== Two-Note NPC ==",
+					"{@bold {@italic Purpose.}} Aid the players and bring out their stories.",
+					"{@bold {@italic Trait.}} I hope to one day unite the Dragon Coast. (Hope)",
+					"== Angry's Four P's ==",
+					"{@bold {@italic Personality.}} ",
+					"{@bold {@italic Posture.}} ",
+					"{@bold {@italic Pause.}} ",
+					"{@bold {@italic Pfidget.}} ",
+					"== Social Inter-Action ==",
+					"{@bold {@italic Objections.}}",
+					"{@bold {@italic Incentives.}}"
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"Gilles adds 2 to his AC against one melee attack that would hit him. To do so, Gilles must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"actionTags": [
+				"Parry"
+			],
+			"save": {
+				"str": "+4",
+				"dex": "+3",
+				"wis": "+3"
+			},
+			"group": [
+				"Blue Dragons"
+			]
+		}
+	]
+}

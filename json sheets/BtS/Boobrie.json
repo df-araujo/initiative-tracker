@@ -1,0 +1,110 @@
+{
+	"siteVersion": "1.181.8",
+	"_meta": {
+		"sources": [
+			{
+				"json": "BeforetheStorm",
+				"abbreviation": "BtS",
+				"full": "Before the Storm",
+				"url": "",
+				"authors": [
+					"ZackKruger"
+				],
+				"convertedBy": [
+					"ZackKruger"
+				],
+				"color": "#310c97"
+			}
+		],
+		"dateAdded": 1688998174,
+		"dateLastModified": 1688998174
+	},
+	"monster": [
+		{
+			"name": "Boobrie",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"source": "BeforetheStorm",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d10 + 12",
+				"average": 45
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 30
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 14,
+			"int": 2,
+			"wis": 11,
+			"cha": 7,
+			"passive": 10,
+			"cr": "2",
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"skill": {
+				"stealth": "+5"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The boobrie makes two attacks: one with its beak and one with its talons."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"trait": [
+				{
+					"name": "Plant Camouflage",
+					"entries": [
+						"The boobrie has advantage on Dexterity ({@skill Stealth}) checks it makes in any terrain with ample obscuring plant life."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			]
+		}
+	]
+}
